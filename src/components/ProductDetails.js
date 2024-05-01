@@ -1,7 +1,5 @@
-// src/components/ProductDetails.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Card, Button } from 'react-bootstrap';
 import products from '../data';
 
 const ProductDetails = () => {
@@ -18,24 +16,33 @@ const ProductDetails = () => {
     window.open(`https://www.google.com/maps/search/?api=1&query=${product.availabilityPlace}`);
   };
 
-  return product ? (
-    <Card style={{ width: '18rem', margin: 'auto', marginTop: '2rem' }}>
-      <Card.Img variant="top" src={product.image} alt={product.name} style={{ maxHeight: '200px', objectFit: 'cover' }} />
-      <Card.Body>
-        <Card.Title style={{ fontWeight: 'bold' }}>{product.name}</Card.Title>
-        <Card.Text><strong>Price:</strong> ${product.price}</Card.Text>
-        <Card.Text><strong>Description:</strong> {product.description}</Card.Text>
-        <Card.Text><strong>Rent per day:</strong> ${product.rentPerDay}</Card.Text>
-        <Card.Text><strong>Rent per month:</strong> ${product.rentPerMonth}</Card.Text>
-        <Card.Text><strong>Rent per year:</strong> ${product.rentPerYear}</Card.Text>
-        <Card.Text><strong>Security Deposit:</strong> ${product.securityDeposit}</Card.Text>
-        <Card.Text><strong>Availability Place:</strong> {product.availabilityPlace}</Card.Text>
-        <Button variant="primary" onClick={handleAvailability}>Check Availability</Button>
-        <Button variant="primary" onClick={handleShowOnMap}>Show on Map</Button>
-      </Card.Body>
-    </Card>
-  ) : (
-    <p>Product not found</p>
+  return (
+    <div className="flex justify-center items-center min-h-screen">
+      {product ? (
+        <div className="bg-white rounded-lg overflow-hidden shadow-lg ring-4 ring-red-500 ring-opacity-40 max-w-sm">
+          <div className="relative">
+            <img className="w-full" src={product.image} alt={product.name} />
+            <div className="absolute top-0 right-0 bg-red-500 text-white px-2 py-1 m-2 rounded-md text-sm font-medium">SALE</div>
+          </div>
+          <div className="p-4">
+            <h3 className="text-lg font-medium mb-2">{product.name}</h3>
+            <p className="text-gray-600 text-sm mb-4">{product.description}</p>
+            <p><strong>Rent per day:</strong> ${product.rentPerDay}</p>
+            <p><strong>Rent per month:</strong> ${product.rentPerMonth}</p>
+            <p><strong>Rent per year:</strong> ${product.rentPerYear}</p>
+            <p><strong>Security Deposit:</strong> ${product.securityDeposit}</p>
+            <p><strong>Availability Place:</strong> {product.availabilityPlace}</p>
+            <div className="flex items-center justify-between">
+              <span className="font-bold text-lg">${product.price}</span>
+              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={handleAvailability}>Check Availability</button>
+            </div>
+            <button className="mt-2 px-4 py-2 bg-blue-500 text-white rounded" onClick={handleShowOnMap}>Show on Map</button>
+          </div>
+        </div>
+      ) : (
+        <p>Product not found</p>
+      )}
+    </div>
   );
 };
 

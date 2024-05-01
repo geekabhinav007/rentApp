@@ -1,20 +1,28 @@
-// src/components/Card.js
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ProductCard = ({ id, name, image, price }) => {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={image} alt={name} style={{ maxHeight: '200px', objectFit: 'cover' }} />
-      <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>Price: ${price}</Card.Text>
+    <div className="w-full sm:w-72 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
+      <Link to={`/product/${id}`}>
+        <img className="p-8 rounded-t-lg object-cover w-full h-48" src={image} alt={name} />
+      </Link>
+      <div className="px-5 pb-5">
         <Link to={`/product/${id}`}>
-          <Button variant="primary">Take on rent</Button>
+          <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{name}</h5>
         </Link>
-      </Card.Body>
-    </Card>
+        <div className="flex items-center mt-2.5 mb-5">
+          {/* Add your star rating component here */}
+          <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <div className="flex items-center justify-between">
+          <span className="text-3xl font-bold text-gray-900 dark:text-white">₹{price}</span>
+          <Link to={`/product/${id}`}>
+            <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Take on Rent</button>
+          </Link>
+        </div>
+      </div>
+    </div>
   );
 };
 

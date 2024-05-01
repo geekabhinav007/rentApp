@@ -1,39 +1,36 @@
 // src/components/CategoryList.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Button } from 'react-bootstrap';
 
 import products from '../data';
 import categoriesImage from '../catData';
-
-
 
 const CategoryList = () => {
   // Get all unique categories
   const categories = [...new Set(products.map(product => product.categories))];
 
   return (
-    <div className="row" style={{ display: 'flex', flexWrap: 'wrap',objectFit: 'cover'  }}>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4">
       {categories.map((category, index) => (
-        <div key={index} > 
+        <div key={index} className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
           <Link to={`/category/${category}`}>
-            <Card style={{ width: '18rem' , margin:'0.5rem', padding:'0.5rem'}}>
-              <Card.Img variant="top" src={categoriesImage[category]} alt={category} style={{ maxHeight: '200px', objectFit: 'cover' }} />
-              <Card.Body>
-                <Button variant="primary">{category}</Button>
-              </Card.Body>
-            </Card>
+            <img className="p-8 rounded-t-lg object-cover w-full h-48" src={categoriesImage[category]} alt={category} />
           </Link>
+          <div className="px-5 pb-5">
+            <Link to={`/category/${category}`}>
+              <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{category}</h5>
+            </Link>
+            <div className="flex items-center justify-between">
+              <Link to={`/category/${category}`}>
+                <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Explore</button>
+              </Link>
+            </div>
+          </div>
         </div>
       ))}
     </div>
   );
 };
 
-
 export default CategoryList;
-
-
-
-
 
