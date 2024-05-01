@@ -4,6 +4,7 @@ import ProductCard from './components/Card';
 import ProductDetails from './components/ProductDetails';
 import CategoryList from './components/CategoryList';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import products from './data';
 
 const CategoryProducts = () => {
@@ -36,6 +37,7 @@ function App() {
             <Route path="/category/:category" element={<CategoryProducts />} />
             <Route path="/product/:id" element={<ProductDetails />} />
           </Routes>
+          <Footer/>
         </div>
       </Router>
     );

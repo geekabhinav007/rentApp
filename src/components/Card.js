@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard = ({ id, name, image, price }) => {
   return (
-    <div className="w-full sm:w-72 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
+    <div className="w-full sm:w-72 max-w-sm my-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
       <Link to={`/product/${id}`}>
         <img className="p-8 rounded-t-lg object-cover w-full h-48" src={image} alt={name} />
       </Link>

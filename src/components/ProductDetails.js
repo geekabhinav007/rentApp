@@ -17,19 +17,19 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center mb-20">
       {product ? (
-        <div className="bg-white rounded-lg overflow-hidden shadow-lg ring-4 ring-red-500 ring-opacity-40 max-w-sm">
+        <div className="bg-white rounded-lg overflow-hidden shadow-lg mx-5 max-w-lg">
           <div className="relative">
             <img className="w-full" src={product.image} alt={product.name} />
           </div>
           <div className="p-4">
             <h3 className="text-lg font-medium mb-2">{product.name}</h3>
             <p className="text-gray-600 text-sm mb-4">{product.description}</p>
-            <p><strong>Rent per day:</strong> ${product.rentPerDay}</p>
-            <p><strong>Rent per month:</strong> ${product.rentPerMonth}</p>
-            <p><strong>Rent per year:</strong> ${product.rentPerYear}</p>
-            <p><strong>Security Deposit:</strong> ${product.securityDeposit}</p>
+            <p><strong>Rent per day:</strong> ₹{product.rentPerDay}</p>
+            <p><strong>Rent per month:</strong> ₹{product.rentPerMonth}</p>
+            <p><strong>Rent per year:</strong> ₹{product.rentPerYear}</p>
+            <p><strong>Security Deposit:</strong> ₹{product.securityDeposit}</p>
             <p><strong>Availability Place:</strong> {product.availabilityPlace}</p>
             <div className="flex items-center justify-between">
               <div className="font-bold text-lg">${product.price}</div>
