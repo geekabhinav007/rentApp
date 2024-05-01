@@ -1,7 +1,7 @@
 // src/components/CategoryList.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import Hero from './Hero';
 import products from '../data';
 import categoriesImage from '../catData';
 
@@ -10,6 +10,8 @@ const CategoryList = () => {
   const categories = [...new Set(products.map(product => product.categories))];
 
   return (
+    <>
+<Hero/>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4">
       {categories.map((category, index) => (
         <div key={index} className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
@@ -29,7 +31,8 @@ const CategoryList = () => {
         </div>
       ))}
     </div>
-  );
+    </>
+     );
 };
 
 export default CategoryList;

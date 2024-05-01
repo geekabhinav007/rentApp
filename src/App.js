@@ -1,9 +1,9 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useParams } from 'react-router-dom';
 import ProductCard from './components/Card';
 import ProductDetails from './components/ProductDetails';
 import CategoryList from './components/CategoryList';
+import Navbar from './components/Navbar';
 import products from './data';
 
 const CategoryProducts = () => {
@@ -26,19 +26,19 @@ const CategoryProducts = () => {
   );
 };
 
-
 function App() {
   return (
-    <Router>
-      <div  >
-        <Routes>
-          <Route path="/" element={<CategoryList />} />
-          <Route path="/category/:category" element={<CategoryProducts />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+      <Router>
+        <div>
+          <Navbar /> 
+          <Routes>
+            <Route path="/" element={<CategoryList />} />
+            <Route path="/category/:category" element={<CategoryProducts />} />
+            <Route path="/product/:id" element={<ProductDetails />} />
+          </Routes>
+        </div>
+      </Router>
+    );
 }
 
 export default App;
