@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className="max-w-7xl mx-auto relative bg-white-800">
+    <div className="max-w-7xl mx-auto my-5 relative bg-white-800">
     <div className="relative py-16 flex justify-center px-4 sm:px-0">
         <div className="max-w-3xl text-center">
             <div className="pb-4">

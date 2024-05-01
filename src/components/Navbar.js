@@ -3,8 +3,8 @@ import logo from '../XingodaLogo.svg'
 
 function Navbar() {
     return (
-        <>        <div className="mx-auto  px-6 lg:px-8 relative  mb-10 bg-white">
-            <div className="relative flex h-16 space-x-10 w-full">
+        <>        <div className=" flex-no-wrap mb-5 fixed top-0 z-10 flex w-full items-center justify-between bg-[#FBFBFB] p-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start ">
+            <div className="relative flex h-10 space-x-10 w-full">
                 <div className="flex justify-start"><a className="flex flex-shrink-0 items-center" href="/">
                     <img className="block h-8 w-auto" height="32" src={logo} />
                 </a>
