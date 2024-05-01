@@ -10,7 +10,7 @@ import products from './data';
 const CategoryProducts = () => {
   const { category } = useParams();
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center pt-20">
       {products.map((product) => (
         product.categories === category && (
           <div className="flex-1 m-1" key={product.id}>

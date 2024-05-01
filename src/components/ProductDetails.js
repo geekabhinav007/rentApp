@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import products from '../data';
+import PageNotFound from './PageNotFound';
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -17,7 +18,7 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mb-20">
+    <div className="flex justify-center items-center py-20">
       {product ? (
         <div className="bg-white rounded-lg overflow-hidden shadow-lg mx-5 max-w-lg">
           <div className="relative">
@@ -26,21 +27,21 @@ const ProductDetails = () => {
           <div className="p-4">
             <h3 className="text-lg font-medium mb-2">{product.name}</h3>
             <p className="text-gray-600 text-sm mb-4">{product.description}</p>
-            <p><strong>Rent per day:</strong> ₹{product.rentPerDay}</p>
-            <p><strong>Rent per month:</strong> ₹{product.rentPerMonth}</p>
-            <p><strong>Rent per year:</strong> ₹{product.rentPerYear}</p>
-            <p><strong>Security Deposit:</strong> ₹{product.securityDeposit}</p>
-            <p><strong>Availability Place:</strong> {product.availabilityPlace}</p>
-            <div className="flex items-center justify-between">
-              <div className="font-bold text-lg">${product.price}</div>
+            <div className="flex flex-col">
+              <label className='text-green-700'><input type="checkbox" />  ₹{product.rentPerDay}/Day</label>
+              <label className='text-green-700'><input type="checkbox" />  ₹{product.rentPerMonth}/Month</label>
+              <label className='text-green-700'><input type="checkbox" />  ₹{product.rentPerYear}/Year</label>
             </div>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-2" onClick={handleAvailability}>Check Availability</button>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-2" onClick={handleShowOnMap}>Show on Map</button>
 
+            <p><strong className='text-green-700'>Security Deposit:</strong> ₹{product.securityDeposit}</p>
+            <p><strong>Availability Place:</strong> {product.availabilityPlace}</p>
+
+            <button className= "bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={handleAvailability}>Check Availability</button>
+            <button className=" bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={handleShowOnMap}>Show on Map</button>
           </div>
         </div>
       ) : (
-        <p>Product not found</p>
+        <PageNotFound />
       )}
     </div>
   );
