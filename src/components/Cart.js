@@ -23,13 +23,16 @@ function Cart() {
   const totalPrice = Object.values(itemPrices).reduce((a, b) => a + b, 0);
 
 
-  const handlePlaceOrder = () => {
-    // Logic to place the order
-    alert(`Your order has been placed.`);
+  const handlePlaceOrder = (totalPrice) => {
+    if(totalPrice != 0){
+      alert(`Your order has been placed.`);
+    }else{
+      alert(`Please Add Item in the Cart`);
+    }
   };
 
   return (
-    <div className='p-10 m-10 bg-gray-100'>
+    <div className='rounded-xl p-10 mx-10 mt-20 mb-20 bg-gray-100'>
       <h2 className='text-2xl font-bold mb-4'>Cart</h2>
       {cartItems.length > 0 ? (
         <ul>
@@ -54,7 +57,7 @@ function Cart() {
         <p className='text-lg text-gray-600'>Your cart is empty.</p>
       )}
       <p><strong>Total Price:</strong> ₹{totalPrice}</p>
-      <button className=" bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={handlePlaceOrder} disabled={Object.keys(selectedPlan).length !== cartItems.length}>Place Your Order</button>
+      <button className=" bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={() => handlePlaceOrder(totalPrice)} disabled={Object.keys(selectedPlan).length !== cartItems.length}>Place Your Order</button>
     </div>
   );
 }

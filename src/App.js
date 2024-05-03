@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import products from './data';
 import Cart from './components/Cart';
 import { CartProvider } from './components/CartContext'
+import Login from './components/Login';
 
 const CategoryProducts = () => {
   const { category } = useParams();
@@ -39,6 +40,7 @@ function App() {
             <Route path="/category/:category" element={<CategoryProducts />} />
             <Route path="/product/:id" element={<ProductDetails />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/login" element={<Login />} /> 
           </Routes>
           <Footer/>
         </div>
