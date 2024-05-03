@@ -6,6 +6,8 @@ import CategoryList from './components/CategoryList';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import products from './data';
+import Cart from './components/Cart';
+import { CartProvider } from './components/CartContext'
 
 const CategoryProducts = () => {
   const { category } = useParams();
@@ -26,9 +28,9 @@ const CategoryProducts = () => {
     </div>
   );
 };
-
 function App() {
   return (
+    <CartProvider>
       <Router>
         <div>
           <Navbar /> 
@@ -36,11 +38,13 @@ function App() {
             <Route path="/" element={<CategoryList />} />
             <Route path="/category/:category" element={<CategoryProducts />} />
             <Route path="/product/:id" element={<ProductDetails />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
           <Footer/>
         </div>
       </Router>
-    );
+    </CartProvider>
+  );
 }
 
 export default App;

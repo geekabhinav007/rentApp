@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import products from '../data';
 import PageNotFound from './PageNotFound';
+import { CartContext } from './CartContext';
 
 const ProductDetails = () => {
   const { id } = useParams();
   const product = products.find((product) => product.id === Number(id));
+  const [selectedPlan, setSelectedPlan] = useState(null);
+  const { addToCart } = useContext(CartContext);
+  const [totalPrice, setTotalPrice] = useState(0);
 
   const handleAvailability = () => {
     // Logic to check availability
@@ -15,6 +19,31 @@ const ProductDetails = () => {
   const handleShowOnMap = () => {
     // Logic to show location on Google Maps
     window.open(`https://www.google.com/maps/search/?api=1&query=${product.availabilityPlace}`);
+  };
+
+  const handleAddToCart = () => {
+    // Logic to add the product to the cart
+    const productWithPlan = {...product, selectedPlan};
+    addToCart(productWithPlan);
+    alert(`${product.name} has been added to the cart.`);
+  };
+
+  const handlePlanChange = (plan) => {
+    setSelectedPlan(plan);
+    let price;
+    if (plan === 'day') {
+      price = product.rentPerDay;
+    } else if (plan === 'month') {
+      price = product.rentPerMonth;
+    } else {
+      price = product.rentPerYear;
+    }
+    setTotalPrice(Math.round(Number(price) + Number(product.securityDeposit)));
+  };
+
+  const handlePlaceOrder = () => {
+    // Logic to place the order
+    alert(`Your order for ${product.name} has been placed.`);
   };
 
   return (
@@ -28,16 +57,18 @@ const ProductDetails = () => {
             <h3 className="text-lg font-medium mb-2">{product.name}</h3>
             <p className="text-gray-600 text-sm mb-4">{product.description}</p>
             <div className="flex flex-col">
-              <label className='text-green-700'><input type="checkbox" />  ₹{product.rentPerDay}/Day</label>
-              <label className='text-green-700'><input type="checkbox" />  ₹{product.rentPerMonth}/Month</label>
-              <label className='text-green-700'><input type="checkbox" />  ₹{product.rentPerYear}/Year</label>
+              <label className='text-green-700'><input type="radio" name="plan" onChange={() => handlePlanChange('day')} />  ₹{product.rentPerDay}/Day</label>
+              <label className='text-green-700'><input type="radio" name="plan" onChange={() => handlePlanChange('month')} />  ₹{product.rentPerMonth}/Month</label>
+              <label className='text-green-700'><input type="radio" name="plan" onChange={() => handlePlanChange('year')} />  ₹{product.rentPerYear}/Year</label>
             </div>
 
             <p><strong className='text-green-700'>Security Deposit:</strong> ₹{product.securityDeposit}</p>
+            <p><strong>Total Price:</strong> ₹{totalPrice}</p>
             <p><strong>Availability Place:</strong> {product.availabilityPlace}</p>
 
-            <button className= "bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={handleAvailability}>Check Availability</button>
+            <button className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={handleAvailability}>Check Availability</button>
             <button className=" bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={handleShowOnMap}>Show on Map</button>
+            <button className=" bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={handleAddToCart} disabled={!selectedPlan}>Add to Cart</button>
           </div>
         </div>
       ) : (
