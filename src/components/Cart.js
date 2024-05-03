@@ -17,9 +17,9 @@ function Cart() {
     } else {
       price = Number(item.rentPerYear);
     }
-    setItemPrices({ ...itemPrices, [item.id]: price + Number(item.securityDeposit) });
+    const currentItemPrice = { [item.id]: price };
+    setItemPrices({ ...itemPrices, [item.id]: Math.round(currentItemPrice[item.id] + Number(item.securityDeposit)) });
   };
-
   const totalPrice = Object.values(itemPrices).reduce((a, b) => a + b, 0);
 
 
