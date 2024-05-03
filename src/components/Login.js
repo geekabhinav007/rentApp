@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../firebase'
 import { useNavigate } from 'react-router-dom'
+import logo from '../XingodaLogo.svg';
+
 
 
 function Login() {
@@ -94,8 +96,8 @@ function Login() {
         <section className="bg-gray-50 dark:bg-gray-900 h-screen">
             <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                 <a className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-                    <img className="w-8 h-8 mr-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" />
-                    ToDo List      </a>
+                    <img className="w-20 h-20 mr-2" src={logo} alt="logo" />
+                      </a>
                 <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
                     {isRegistering ? (
                         <>
