@@ -5,12 +5,11 @@ import { CartContext } from './CartContext';
 function Cart() {
   const { cartItems } = useContext(CartContext);
   const [selectedPlan, setSelectedPlan] = useState({});
-  const [totalPrice, setTotalPrice] = useState(0);
+  const [itemPrices, setItemPrices] = useState({});
 
   const handlePlanChange = (plan, item) => {
     setSelectedPlan({ ...selectedPlan, [item.id]: plan });
     let price;
-    let securityPrice = Number(item.securityDeposit);
     if (plan === 'day') {
       price = Number(item.rentPerDay);
     } else if (plan === 'month') {
@@ -18,8 +17,11 @@ function Cart() {
     } else {
       price = Number(item.rentPerYear);
     }
-    setTotalPrice(totalPrice + price + securityPrice);
+    setItemPrices({ ...itemPrices, [item.id]: price + Number(item.securityDeposit) });
   };
+
+  const totalPrice = Object.values(itemPrices).reduce((a, b) => a + b, 0);
+
 
   const handlePlaceOrder = () => {
     // Logic to place the order
