@@ -12,11 +12,11 @@ const CategoryList = () => {
   return (
     <>
 <Hero/>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4 ">
       {categories.map((category, index) => (
-        <div key={index} className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
+        <div key={index} className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4 transform transition duration-500 ease-in-out hover:scale-105 hover:rotate-3">
           <Link to={`/category/${category}`}>
-            <img className="p-8 rounded-t-lg object-cover w-full h-48" src={categoriesImage[category]} alt={category} />
+            <img className="p-4 rounded object-cover w-full h-48" src={categoriesImage[category]} alt={category} />
           </Link>
           <div className="px-5 pb-5">
             <Link to={`/category/${category}`}>
