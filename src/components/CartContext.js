@@ -10,18 +10,18 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = async (item) => {
     
-    const response = await axios.post('http://localhost:4000/cart/add', item);
+    const response = await axios.post('https://bacrentapp.onrender.com/cart/add', item);
     setCartItems(response.data);
   };
 
   const removeFromCart = async (id , uid) => {
-    const response = await axios.post('http://localhost:4000/cart/remove', { id, userId: uid });
+    const response = await axios.post('https://bacrentapp.onrender.com/cart/remove', { id, userId: uid });
     setCartItems(response.data);
 };
 
 
   const getCartItems = async (uid) => {
-    const response = await axios.get(`http://localhost:4000/cart`, { params: { uid: uid } });
+    const response = await axios.get(`https://bacrentapp.onrender.com/cart`, { params: { uid: uid } });
     setCartItems(response.data);
   };
   
