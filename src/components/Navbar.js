@@ -17,6 +17,9 @@ function Navbar() {
     }, []);
 
 
+    const handleCart = () => {
+        navigate('/cart');
+    };
 
     const handleSignOut = () => {
         if (auth.currentUser) {
@@ -47,9 +50,12 @@ function Navbar() {
                                 <Link className="text-white bg-gray-800 hover:bg-gray-900 inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm" to="/login">Sign up</Link>
                             </>
                         )}
-                        <Link className="text-white bg-red-600 hover:bg-red-800 inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm" to="/cart">Cart</Link>
                         {isLoggedIn && (
-                            <Link className="text-white bg-red-600 hover:bg-red-800 inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleSignOut}>Logout</Link>
+                            <>
+                                <button className="text-white bg-red-600 hover:bg-red-800 inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleCart}>Cart</button>
+
+                                <Link className="text-white bg-red-600 hover:bg-red-800 inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleSignOut}>Logout</Link>
+                            </>
                         )}
                     </div>
                 </div>
