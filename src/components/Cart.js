@@ -1,10 +1,10 @@
-import React, { useContext, useState , useEffect } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { CartContext } from './CartContext';
 import { auth } from '../firebase';
 
 
 function Cart() {
-  const { cartItems , getCartItems , removeFromCart} = useContext(CartContext);
+  const { cartItems, getCartItems, removeFromCart, addToOrder } = useContext(CartContext);
   const [selectedPlan, setSelectedPlan] = useState({});
   const [itemPrices, setItemPrices] = useState({});
 
@@ -24,29 +24,55 @@ function Cart() {
   const totalPrice = Object.values(itemPrices).reduce((a, b) => a + b, 0);
 
   const handleRemoveItem = async (id, uid) => {
-    console.log(`Item ID: ${id}`);
-    console.log(`User ID: ${uid}`);
+    // console.log(`Item ID: ${id}`);
+    // console.log(`User ID: ${uid}`);
     await removeFromCart(id, uid);
     getCartItems(uid);
-};
-
-
-  const handlePlaceOrder = (totalPrice) => {
-    if (totalPrice !== 0) {
-      alert(`Your order has been placed.`);
-    }else{
-      alert(`Please Add Item in the Cart`);
-    }
   };
 
-  // Here dont get cartItem directly check for uid and get the cartItem for that user
+
+  // const handlePlaceOrder = (totalPrice) => {
+  //   if (totalPrice !== 0) {
+  //     alert(`Your order has been placed.`);
+  //   }else{
+  //     alert(`Please Add Item in the Cart`);
+  //   }
+  // };
+
+  const generateOrderId = () => {
+    return Math.random().toString(36).substr(2, 9);
+  }
+
+
+
+  // Move the useEffect hook outside of handlePlaceOrder
   useEffect(() => {
     const user = auth.currentUser;
     if (user) {
       getCartItems(user.uid);
     }
-  }
-  , [getCartItems]);
+  }, [getCartItems]);
+
+  const handlePlaceOrder = async (cartItems) => {
+
+    if (totalPrice !== 0) {
+      const user = auth.currentUser;
+      if (user) {
+        const order = {
+          id: generateOrderId(),
+          items: cartItems[0],
+          totalPrice: totalPrice,
+          date: new Date().toISOString(),
+        };
+
+        await addToOrder(user.uid, order);
+        alert(`Your order has been placed.`);
+      }
+    } else {
+      alert(`Please Add Item in the Cart`);
+    }
+  };
+
 
   // for managing the cart after refresh also
   // useEffect(() => {
@@ -63,7 +89,7 @@ function Cart() {
   //     }
   //   }
   // }, [getCartItems]);
-  
+
 
 
 
@@ -95,10 +121,14 @@ function Cart() {
         <p className='text-lg text-gray-600'>Your cart is empty.</p>
       )}
       <p><strong>Total Price:</strong> ₹{totalPrice}</p>
-      <button className=" bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2" onClick={() => handlePlaceOrder(totalPrice)} disabled={Object.keys(selectedPlan).length !== cartItems.length}>Place Your Order</button>
+
+
+      <button onClick={() => handlePlaceOrder(cartItems)} disabled={Object.keys(selectedPlan).length !== cartItems.length} className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2">Place Order</button>
+
+
     </div>
   );
-  
 }
+
 
 export default Cart;

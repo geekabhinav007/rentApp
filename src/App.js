@@ -9,6 +9,7 @@ import products from './data';
 import Cart from './components/Cart';
 import { CartProvider } from './components/CartContext'
 import Login from './components/Login';
+import Order from './components/Order';
 
 const CategoryProducts = () => {
   const { category } = useParams();
@@ -34,15 +35,16 @@ function App() {
     <CartProvider>
       <Router>
         <div>
-          <Navbar /> 
+          <Navbar />
           <Routes>
             <Route path="/" element={<CategoryList />} />
             <Route path="/category/:category" element={<CategoryProducts />} />
             <Route path="/product/:id" element={<ProductDetails />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path="/login" element={<Login />} /> 
+            <Route path="/order" element={<Order />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </div>
       </Router>
     </CartProvider>
