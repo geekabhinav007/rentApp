@@ -53,26 +53,50 @@ function Cart() {
     }
   }, [getCartItems]);
 
-  const handlePlaceOrder = async (cartItems) => {
 
+  console.log(cartItems);
+
+
+  const handlePlaceOrder = async (cartItems) => {
     if (totalPrice !== 0) {
       const user = auth.currentUser;
       if (user) {
+        const orderId = generateOrderId();
         const order = {
-          id: generateOrderId(),
-          items: cartItems[0],
-          totalPrice: totalPrice,
+          orderId: orderId,
           date: new Date().toISOString(),
+          totalPrice: totalPrice,
+          items: cartItems.map(item => {
+            return {
+              id: item.id,
+              name: item.name,
+              image: item.image,
+              description: item.description,
+              selectedPlan: item.selectedPlan,
+              rent: selectedPlan[item.id] === 'day' ? item.rentPerDay : selectedPlan[item.id] === 'month' ? item.rentPerMonth : item.rentPerYear,
+              securityDeposit: item.securityDeposit,
+              itemTotalPrice: itemPrices[item.id],
+            }
+          }),
         };
 
+        // Call addToOrder once for all items in cart
         await addToOrder(user.uid, order);
+
         alert(`Your order has been placed.`);
+
+        // Remove items from cart after placing the order
+        cartItems.forEach(item => {
+          removeFromCart(item.id, user.uid);
+        });
+
+        // Reset item prices after placing the order
+        setItemPrices({});
       }
     } else {
       alert(`Please Add Item in the Cart`);
     }
-  };
-
+  }
 
   // for managing the cart after refresh also
   // useEffect(() => {
@@ -129,6 +153,7 @@ function Cart() {
     </div>
   );
 }
+
 
 
 export default Cart;
