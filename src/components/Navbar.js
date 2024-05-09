@@ -41,7 +41,7 @@ function Navbar() {
 
     return (
 
-        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed z-10 top-0 w-full">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a className="flex flex-shrink-0 items-center" href="/">
                     <img className="block h-8 w-auto" height="32" src={logo} />
@@ -73,8 +73,8 @@ function Navbar() {
                 </div>
             </div>
         </nav>
-
-    )
+        
+  )
 }
 
 export default Navbar;
