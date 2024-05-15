@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, Routes, useParams } from 'react-router-dom';
 import ProductCard from './components/Card';
 import ProductDetails from './components/ProductDetails';
@@ -13,9 +13,26 @@ import Order from './components/Order';
 
 const CategoryProducts = () => {
   const { category } = useParams();
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = event => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredProducts = products.filter(product =>
+    product.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
   return (
     <div className="flex flex-wrap justify-center pt-20">
-      {products.map((product) => (
+      <input 
+        type="text"
+        placeholder="Search products..."
+        onChange={handleSearch}
+        className="w-full h-10 pl-10 pr-20 rounded-full text-sm focus:outline-none"
+        
+      />
+      
+      {filteredProducts.map((product) => (
         product.categories === category && (
           <div className="flex-1 m-1" key={product.id}>
             <ProductCard
