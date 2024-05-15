@@ -1,122 +1,138 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { CartContext } from './CartContext';
 import { auth } from '../firebase';
-
+import logo from '../XingodaLogo.svg';
+import axios from 'axios';
 
 function Cart() {
-  const { cartItems, getCartItems, removeFromCart, addToOrder } = useContext(CartContext);
-  const [selectedPlan, setSelectedPlan] = useState({});
-  const [itemPrices, setItemPrices] = useState({});
+  const { cartItems = [], clearCart, getCartItems, removeFromCart, addToOrder } = useContext(CartContext);
 
-  const handlePlanChange = (plan, item) => {
-    setSelectedPlan({ ...selectedPlan, [item.id]: plan });
-    let price;
-    if (plan === 'day') {
-      price = Number(item.rentPerDay);
-    } else if (plan === 'month') {
-      price = Number(item.rentPerMonth);
-    } else {
-      price = Number(item.rentPerYear);
-    }
-    const currentItemPrice = { [item.id]: price };
-    setItemPrices({ ...itemPrices, [item.id]: Math.round(currentItemPrice[item.id] + Number(item.securityDeposit)) });
-  };
-  const totalPrice = Object.values(itemPrices).reduce((a, b) => a + b, 0);
-
-  const handleRemoveItem = async (id, uid) => {
-    // console.log(`Item ID: ${id}`);
-    // console.log(`User ID: ${uid}`);
-    await removeFromCart(id, uid);
-    getCartItems(uid);
-  };
-
-
-  // const handlePlaceOrder = (totalPrice) => {
-  //   if (totalPrice !== 0) {
-  //     alert(`Your order has been placed.`);
-  //   }else{
-  //     alert(`Please Add Item in the Cart`);
-  //   }
-  // };
-
-  const generateOrderId = () => {
-    return Math.random().toString(36).substr(2, 9);
-  }
-
-
-
-  // Move the useEffect hook outside of handlePlaceOrder
   useEffect(() => {
     const user = auth.currentUser;
     if (user) {
       getCartItems(user.uid);
     }
-  }, [getCartItems]);
+  }, [auth.currentUser]);
 
 
-  console.log(cartItems);
 
+  // Calculate total price for each item
+  if (Array.isArray(cartItems)) {
 
-  const handlePlaceOrder = async (cartItems) => {
-    if (totalPrice !== 0) {
-      const user = auth.currentUser;
-      if (user) {
-        const orderId = generateOrderId();
-        const order = {
-          orderId: orderId,
-          date: new Date().toISOString(),
-          totalPrice: totalPrice,
-          items: cartItems.map(item => {
-            return {
-              id: item.id,
-              name: item.name,
-              image: item.image,
-              description: item.description,
-              selectedPlan: item.selectedPlan,
-              rent: selectedPlan[item.id] === 'day' ? item.rentPerDay : selectedPlan[item.id] === 'month' ? item.rentPerMonth : item.rentPerYear,
-              securityDeposit: item.securityDeposit,
-              itemTotalPrice: itemPrices[item.id],
-            }
-          }),
-        };
-
-        // Call addToOrder once for all items in cart
-        await addToOrder(user.uid, order);
-
-        alert(`Your order has been placed.`);
-
-        // Remove items from cart after placing the order
-        cartItems.forEach(item => {
-          removeFromCart(item.id, user.uid);
-        });
-
-        // Reset item prices after placing the order
-        setItemPrices({});
+    cartItems.forEach(item => {
+      if (item.selectedPlan === 'day') {
+        item.totalPrice = Math.round(Number(item.rentPerDay) + Number(item.securityDeposit));
+      } else if (item.selectedPlan === 'month') {
+        item.totalPrice = Math.round(Number(item.rentPerMonth) + Number(item.securityDeposit));
+      } else if (item.selectedPlan === 'year') {
+        item.totalPrice = Math.round(Number(item.rentPerYear) + Number(item.securityDeposit));
       }
-    } else {
-      alert(`Please Add Item in the Cart`);
-    }
+    });
   }
 
-  // for managing the cart after refresh also
-  // useEffect(() => {
-  //   const user = auth.currentUser;
-  //   if (user) {
-  //     const storedCartItems = localStorage.getItem('cartItems');
-  //     if (storedCartItems) {
-  //       getCartItems(JSON.parse(storedCartItems));
-  //     } else {
-  //       getCartItems(user.uid).then((items) => {
-  //         getCartItems(items);
-  //         localStorage.setItem('cartItems', JSON.stringify(items));
-  //       });
-  //     }
-  //   }
-  // }, [getCartItems]);
 
 
 
+  let totalPrice = 0;
+  if (Array.isArray(cartItems)) {
+    totalPrice = cartItems.reduce((total, item) => total + item.totalPrice, 0);
+  }
 
+
+
+  // Calculate total price of all items
+
+  useEffect(() => {
+    const user = auth.currentUser;
+    if (user) {
+      getCartItems(user.uid);
+    }
+  }, [auth.currentUser]);
+
+
+
+  const handleRemoveItem = async (id, uid) => {
+    await removeFromCart(id, uid);
+    const user = auth.currentUser;
+    if (user) {
+      getCartItems(user.uid);
+    }
+  };
+
+  function loadScript(src) {
+    return new Promise((resolve) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.onload = () => {
+        resolve(true);
+      };
+      script.onerror = () => {
+        resolve(false);
+      };
+      document.body.appendChild(script);
+    });
+  }
+
+  async function displayRazorpay(cartItems, totalPrice) {
+
+    const res = await loadScript(
+      "https://checkout.razorpay.com/v1/checkout.js"
+    );
+
+    if (!res) {
+      alert("Razorpay SDK failed to load. Are you online?");
+      return;
+    }
+    const result = await axios.post("http://localhost:4000/payment/orders", { cartItems, totalPrice });
+
+    if (!result) {
+      alert("Server error. Are you online?");
+      return;
+    }
+    const { amount, id: order_id, currency } = result.data;
+
+    const options = {
+      key: "rzp_test_xkT5PlIAtmBSBI",
+      amount: amount.toString(),
+      currency: currency,
+      name: "Soumya Corp.",
+      description: "Test Transaction",
+      image: { logo },
+      order_id: order_id,
+      handler: async function (response) {
+        const data = {
+          orderCreationId: order_id,
+          razorpayPaymentId: response.razorpay_payment_id,
+          razorpayOrderId: response.razorpay_order_id,
+          razorpaySignature: response.razorpay_signature,
+          totalPrice: amount.toString(),
+          cartItems: cartItems,
+          uid: cartItems[0].uid,
+        };
+        const result = await axios.post("http://localhost:4000/payment/success", data);
+
+
+        alert(result.data.msg);
+        // Clear the cart after successful payment
+        await clearCart(cartItems[0].uid);
+      },
+      prefill: {
+        name: "Kumar Abhinav",
+        email: "krabhinav@example.com",
+        contact: "9999999999",
+      },
+      notes: {
+        address: "Xingoda HSR Layout Corporate Office",
+      },
+      theme: {
+        color: "#61dafb",
+      },
+    };
+
+    const paymentObject = new window.Razorpay(options);
+    paymentObject.open();
+    
+  }
 
   return (
     <div className='rounded-xl p-4 sm:p-10 mx-4 sm:mx-10 mt-10 mb-10 bg-gray-100'>
@@ -130,12 +146,8 @@ function Cart() {
                 <h3 className='text-lg font-medium'>{item.name}</h3>
                 <p className='text-sm text-gray-600'>{item.description}</p>
                 <p><strong className='text-green-700'>Selected Plan:</strong> {item.selectedPlan}</p>
-                <div className="flex flex-col">
-                  <label className='text-green-700'><input type="radio" name={`plan${item.id}`} onChange={() => handlePlanChange('day', item)} />  ₹{item.rentPerDay}/Day</label>
-                  <label className='text-green-700'><input type="radio" name={`plan${item.id}`} onChange={() => handlePlanChange('month', item)} />  ₹{item.rentPerMonth}/Month</label>
-                  <label className='text-green-700'><input type="radio" name={`plan${item.id}`} onChange={() => handlePlanChange('year', item)} />  ₹{item.rentPerYear}/Year</label>
-                </div>
                 <p><strong className='text-green-700'>Security Deposit:</strong> ₹{item.securityDeposit}</p>
+                <p><strong className='text-green-700'>Total Price:</strong> ₹{item.totalPrice}</p>
               </div>
               <button className=" bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded m-2" onClick={() => handleRemoveItem(item.id, item.uid)}>Remove from Cart</button>
             </li>
@@ -144,10 +156,10 @@ function Cart() {
       ) : (
         <p className='text-lg text-gray-600'>Your cart is empty.</p>
       )}
-      <p><strong>Total Price:</strong> ₹{totalPrice}</p>
+      <p><strong>Total Price of All Items:</strong> ₹{totalPrice}</p>
 
 
-      <button onClick={() => handlePlaceOrder(cartItems)} disabled={Object.keys(selectedPlan).length !== cartItems.length} className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2">Place Order</button>
+      <button onClick={() => displayRazorpay(cartItems, totalPrice)} disabled={cartItems.length === 0} className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded m-2">Place Order</button>
 
 
     </div>

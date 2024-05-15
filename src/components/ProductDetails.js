@@ -34,9 +34,10 @@ const ProductDetails = () => {
     window.open(`https://www.google.com/maps/search/?api=1&query=${product.availabilityPlace}`);
   };
 
+  
   const handleAddToCart = () => {
     // Logic to add the product to the cart
-    const productWithPlan = { ...product, selectedPlan };
+    const productWithPlan = { ...product, selectedPlan, totalPrice };
     const user = auth.currentUser;
     if (user) {
       const productWithUser = { ...productWithPlan, uid: user.uid };
@@ -61,11 +62,9 @@ const ProductDetails = () => {
     setTotalPrice(Math.round(Number(price) + Number(product.securityDeposit)));
   };
 
-  const handlePlaceOrder = () => {
-    // Logic to place the order
-    alert(`Your order for ${product.name} has been placed.`);
-  };
+  
 
+  
   return (
     <div className="flex justify-center items-center py-20">
       {product ? (
