@@ -1,19 +1,11 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { CartContext } from './CartContext';
 import { auth } from '../firebase';
 import logo from '../XingodaLogo.svg';
 import axios from 'axios';
 
 function Cart() {
-  const { cartItems = [], clearCart, getCartItems, removeFromCart, addToOrder } = useContext(CartContext);
-
-  useEffect(() => {
-    const user = auth.currentUser;
-    if (user) {
-      getCartItems(user.uid);
-    }
-  }, [auth.currentUser]);
-
+  const { cartItems = [], clearCart, getCartItems, removeFromCart } = useContext(CartContext);
 
 
   // Calculate total price for each item
@@ -30,15 +22,10 @@ function Cart() {
     });
   }
 
-
-
-
   let totalPrice = 0;
   if (Array.isArray(cartItems)) {
     totalPrice = cartItems.reduce((total, item) => total + item.totalPrice, 0);
   }
-
-
 
   // Calculate total price of all items
 
