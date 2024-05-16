@@ -76,7 +76,7 @@ function Cart() {
       alert("Razorpay SDK failed to load. Are you online?");
       return;
     }
-    const result = await axios.post("http://localhost:4000/payment/orders", { cartItems, totalPrice });
+    const result = await axios.post("https://bbr-vku7.onrender.com/payment/orders", { cartItems, totalPrice });
 
     if (!result) {
       alert("Server error. Are you online?");
@@ -90,7 +90,7 @@ function Cart() {
       currency: currency,
       name: "Xingoda",
       description: "Test Transaction",
-      image: { logo },
+      image: {logo},
       order_id: order_id,
       handler: async function (response) {
         const data = {
@@ -102,7 +102,7 @@ function Cart() {
           cartItems: cartItems,
           uid: cartItems[0].uid,
         };
-        const result = await axios.post("http://localhost:4000/payment/success", data);
+        const result = await axios.post("https://bbr-vku7.onrender.com/payment/success", data);
 
 
         alert(result.data.msg);
