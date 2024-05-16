@@ -11,29 +11,29 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = async (item) => {
     
-    const response = await axios.post('https://bbr-vku7.onrender.com//cart/add', item);
+    const response = await axios.post('https://bbr-vku7.onrender.com/cart/add', item);
     setCartItems(response.data);
   };
 
   const removeFromCart = async (id , uid) => {
-    const response = await axios.post('https://bbr-vku7.onrender.com//cart/remove', { id, userId: uid });
+    const response = await axios.post('https://bbr-vku7.onrender.com/cart/remove', { id, userId: uid });
     setCartItems(response.data);
 };
 
 
   const getCartItems = async (uid) => {
-    const response = await axios.get(`https://bbr-vku7.onrender.com//cart`, { params: { uid: uid } });
+    const response = await axios.get(`https://bbr-vku7.onrender.com/cart`, { params: { uid: uid } });
     setCartItems(response.data);
   };
 
 // Add Order History i need all item data and user id should be passed to the backend
   const addToOrder = async (uid, order) => {
-    const response = await axios.post('https://bbr-vku7.onrender.com//order/add', { uid, order });
+    const response = await axios.post('https://bbr-vku7.onrender.com/order/add', { uid, order });
     setOrderItems(response.data);
   };
 
   const getOrders = async (uid) => {
-    const response = await axios.get(`https://bbr-vku7.onrender.com//order`, { params: { uid: uid } });
+    const response = await axios.get(`https://bbr-vku7.onrender.com/order`, { params: { uid: uid } });
     setOrderItems(response.data);
     return response.data;
   }
@@ -41,7 +41,7 @@ export const CartProvider = ({ children }) => {
 
 const clearCart = async (uid) => {
   try {
-    const response = await axios.post('https://bbr-vku7.onrender.com//cart/clear', { uid });
+    const response = await axios.post('https://bbr-vku7.onrender.com/cart/clear', { uid });
     setCartItems(response.data);
   } catch (error) {
     console.error("Error clearing cart:", error);
