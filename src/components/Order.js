@@ -6,15 +6,24 @@ import moment from 'moment';
 function Order() {
   const { getOrders } = useContext(CartContext);
   const [orders, setOrders] = useState([]);
+  const [user, setUser] = useState(auth.currentUser); 
 
   useEffect(() => {
-    const user = auth.currentUser;
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      setUser(user);
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+
+  useEffect(() => {
     if (user) {
       getOrders(user.uid).then(fetchedOrders => {
         setOrders(fetchedOrders);
       });
     }
-  }, [auth.currentUser]);
+  }, [user]);
 
   return (
     <div className='rounded-xl p-4 sm:p-10 mx-4 sm:mx-10 mt-10 mb-10 bg-gray-100'>

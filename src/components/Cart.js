@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { CartContext } from './CartContext';
 import { auth } from '../firebase';
 import logo from '../XingodaLogo.svg';
@@ -6,6 +6,7 @@ import axios from 'axios';
 
 function Cart() {
   const { cartItems = [], clearCart, getCartItems, removeFromCart } = useContext(CartContext);
+  const [user, setUser] = useState(auth.currentUser); // Create a state variable for the user
 
 
   // Calculate total price for each item
@@ -27,14 +28,19 @@ function Cart() {
     totalPrice = cartItems.reduce((total, item) => total + item.totalPrice, 0);
   }
 
-  // Calculate total price of all items
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      setUser(user);
+    });
+
+    return () => unsubscribe();
+  }, []);
 
   useEffect(() => {
-    const user = auth.currentUser;
     if (user) {
       getCartItems(user.uid);
     }
-  }, [auth.currentUser]);
+  }, [user]);
 
 
 
@@ -118,7 +124,7 @@ function Cart() {
 
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
-    
+
   }
 
   return (
