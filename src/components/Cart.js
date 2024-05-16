@@ -88,7 +88,7 @@ function Cart() {
       key: "rzp_test_xkT5PlIAtmBSBI",
       amount: amount.toString(),
       currency: currency,
-      name: "Soumya Corp.",
+      name: "Xingoda",
       description: "Test Transaction",
       image: { logo },
       order_id: order_id,
