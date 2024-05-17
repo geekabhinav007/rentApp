@@ -53,14 +53,16 @@ function App() {
       <Router>
         <div>
           <Navbar />
-          <Routes>
-            <Route path="/" element={<CategoryList />} />
-            <Route path="/category/:category" element={<CategoryProducts />} />
-            <Route path="/product/:id" element={<ProductDetails />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/order" element={<Order />} />
-            <Route path="/login" element={<Login />} />
-          </Routes>
+          <div className="mt-20 pt-8">
+            <Routes>
+              <Route path="/" element={<CategoryList />} />
+              <Route path="/category/:category" element={<CategoryProducts />} />
+              <Route path="/product/:id" element={<ProductDetails />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/order" element={<Order />} />
+              <Route path="/login" element={<Login />} />
+            </Routes>
+          </div>
           <Footer />
         </div>
       </Router>
