@@ -4,22 +4,56 @@ import products from '../data';
 import SearchResultNotFound from './SearchResultNotFound';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-
+import subCatData from '../subCatData';
 
 const ProductList = () => {
     const { category } = useParams();
     const [searchTerm, setSearchTerm] = useState('');
+    const [subCategory, setSubCategory] = useState('ALL'); // new state for subcategory filter
+
+    const handleSubCategoryClick = (subCat) => { 
+        // now show only products that belong to the selected subcategory   
+        setSubCategory(subCat);
+
+    };
+
+    const subcategories = subCatData.filter(subCat => subCat.categories === category);
 
     const handleSearch = event => {
         setSearchTerm(event.target.value);
     };
 
-    const filteredProducts = products.filter(product =>
-        product.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+
+   const filteredProducts = products.filter(product =>
+    product.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+    (subCategory === 'ALL' || product.subCategories === subCategory)
+);
+
     return (
         <>
+        
+        <div className='flex items-center justify-center py-5' >
+    <button
+        onClick={() => handleSubCategoryClick('ALL')}
+        className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2`}
+    >
+        All
+    </button>
+    {subcategories.map(subCat => (
+        <button
+            key={subCat.id}
+            onClick={() => handleSubCategoryClick(subCat.name)}
+            className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2`}
+        >
+            {subCat.name}
+        </button>
+    ))}
+</div>
+
             <div className="flex items-center justify-center py-5">
+
+                {/* Need below div and search bar in diff line */}
+
                 <div className="relative">
                     <input
                         type="text"

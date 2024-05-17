@@ -10,7 +10,8 @@ const product = [
     "rentPerYear": "2785.57",
     "securityDeposit": "312.66",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Car"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@ const product = [
     "rentPerYear": "894.61",
     "securityDeposit": "44.81",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Car"
   },
 
   {
@@ -37,7 +39,8 @@ const product = [
     "rentPerYear": "1450.24",
     "securityDeposit": "173.04",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Car"
   },
   {
     "id": 4,
@@ -50,7 +53,8 @@ const product = [
     "rentPerYear": "62.65",
     "securityDeposit": "130.76",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Bike"
   },
   {
     "id": 5,
@@ -63,7 +67,8 @@ const product = [
     "rentPerYear": "415.72",
     "securityDeposit": "144.56",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Bike"
   },
   {
     "id": 6,
@@ -76,7 +81,8 @@ const product = [
     "rentPerYear": "2163.22",
     "securityDeposit": "65.93",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Golf Cart"
   },
   {
     "id": 7,
@@ -89,7 +95,8 @@ const product = [
     "rentPerYear": "1287.81",
     "securityDeposit": "295.08",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Golf Cart"
   },
   {
     "id": 8,
@@ -102,7 +109,9 @@ const product = [
     "rentPerYear": "3294.60",
     "securityDeposit": "218.40",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Golf Cart"
+
   },
   {
     "id": 9,
@@ -115,7 +124,9 @@ const product = [
     "rentPerYear": "3362.13",
     "securityDeposit": "31.55",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Truck"
+
   },
   {
     "id": 10,
@@ -128,7 +139,8 @@ const product = [
     "rentPerYear": "364.39",
     "securityDeposit": "237.50",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Truck"
   },
   {
     "id": 11,
@@ -141,7 +153,8 @@ const product = [
     "rentPerYear": "1903.97",
     "securityDeposit": "191.88",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Truck"
   },
   {
     "id": 12,
@@ -154,7 +167,8 @@ const product = [
     "rentPerYear": "1618.76",
     "securityDeposit": "241.63",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Truck"
   },
   {
     "id": 13,
@@ -167,7 +181,8 @@ const product = [
     "rentPerYear": "1436.75",
     "securityDeposit": "465.70",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Truck"
   },
   {
     "id": 14,
@@ -180,7 +195,8 @@ const product = [
     "rentPerYear": "420.02",
     "securityDeposit": "472.75",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Others"
   },
   {
     "id": 15,
@@ -193,7 +209,8 @@ const product = [
     "rentPerYear": "2753.80",
     "securityDeposit": "275.10",
     "availabilityPlace": "Bengaluru, India",
-    "categories": "Automobiles"
+    "categories": "Automobiles",
+    "subCategories": "Others"
   },
   {
     "id": 16,
