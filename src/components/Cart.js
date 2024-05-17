@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { CartContext } from './CartContext';
 import { auth } from '../firebase';
-import logo from '../XingodaLogo.svg';
 import axios from 'axios';
 
 function Cart() {
