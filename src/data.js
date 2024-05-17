@@ -1,4 +1,3 @@
-import saree from './assets/sarees.jpeg';
 const product = [
   {
     "id": 1,
