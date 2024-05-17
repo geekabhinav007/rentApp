@@ -40,7 +40,7 @@ const CategoryList = () => {
       </div>
 
       {filteredCategories.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4">
           {filteredCategories.map((category, index) => (
             <div key={index} className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4 transform transition duration-500 ease-in-out hover:scale-105 hover:rotate-3">
               <Link to={`/category/${category}`}>
