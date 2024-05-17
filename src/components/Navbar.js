@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase.js";
 import { signOut } from "firebase/auth";
-
+import cartIcon from '../assets/cart-25.png';
+import loginIcon from '../assets/login-25.png';
+import logoutIcon from '../assets/logout-25.png';
+import orderIcon from '../assets/order-25.png';
+import siginUpIcon from '../assets/signup-25.png';
 function Navbar() {
     const navigate = useNavigate();
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -63,10 +67,16 @@ function Navbar() {
                         )}
                         {isLoggedIn && (
                             <>
-                                <button className="text-white bg-blue-800 hover:bg-blue-900 inline-flex items-center justify-center px-3 py-2 my-1 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleCart}>Cart</button>
-                                <button className="text-white bg-green-800 hover:bg-green-900 inline-flex items-center justify-center px-3 py-2 my-1 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleOrder}>Orders</button>
+                                <button className="text-white bg-blue-400 hover:bg-blue-600 inline-flex items-center justify-center px-3 py-2 my-1 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleCart}>
+                                    <img src={cartIcon} alt='cartLogo'></img>
+                                </button>
+                                <button className="text-white  bg-green-400 hover:bg-green-600 inline-flex items-center justify-center px-3 py-2 my-1 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleOrder}>
+                                    <img src={orderIcon} alt='orderLogo'></img>
+                                </button>
 
-                                <button className="text-white bg-red-800 hover:bg-red-900 inline-flex items-center justify-center px-3 py-2 my-1 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleSignOut}>Logout</button>
+                                <button className="text-white bg-red-300 hover:bg-red-600 inline-flex items-center justify-center px-3 py-2 my-1 border border-transparent text-sm font-medium rounded-md shadow-sm" onClick={handleSignOut}>
+                                    <img src={logoutIcon} alt='logoutLogo'></img>
+                                </button>
                             </>
                         )}
                     </ul>
