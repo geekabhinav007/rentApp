@@ -23,11 +23,11 @@ function Hero() {
                     <p className="mt-4 text-lg sm:text-xl leading-8 text-gray-800 sm:px-16">Rentals help to save the environment and reduce carbon footprint and provide better usability of the products.
 
                     </p>
-                    <div className="mt-8 flex w-full space-x-8 justify-center"><a
-                    ><button className="inline-flex items-center justify-center py-2.5 border border-transparent  font-medium focus:outline-none ring-2 ring-offset-2 ring-transparent ring-offset-transparent disabled:bg-gray-400 appearance-none text-white bg-lime-600 hover:bg-lime-700 focus:ring-lime-500 focus:ring-offset-white !px-12 !shadow-lg !rounded-full !text-base"
-                        onClick={callForAction}>
+                    <div className="mt-8 flex w-full space-x-8 justify-center">
+                        <button className="inline-flex items-center justify-center py-2.5 border border-transparent  font-medium focus:outline-none ring-2 ring-offset-2 ring-transparent ring-offset-transparent disabled:bg-gray-400 appearance-none text-white bg-lime-600 hover:bg-lime-700 focus:ring-lime-500 focus:ring-offset-white !px-12 !shadow-lg !rounded-full !text-base"
+                            onClick={callForAction}>
                             Start now for free
-                        </button></a>
+                        </button>
                     </div>
                 </div>
             </div>

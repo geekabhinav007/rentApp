@@ -10,7 +10,7 @@ const product = [
     "rentPerMonth": "246.26",
     "rentPerYear": "2785.57",
     "securityDeposit": "312.66",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -23,7 +23,7 @@ const product = [
     "rentPerMonth": "181.20",
     "rentPerYear": "894.61",
     "securityDeposit": "44.81",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
 
@@ -37,7 +37,7 @@ const product = [
     "rentPerMonth": "268.09",
     "rentPerYear": "1450.24",
     "securityDeposit": "173.04",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -50,7 +50,7 @@ const product = [
     "rentPerMonth": "226.02",
     "rentPerYear": "62.65",
     "securityDeposit": "130.76",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -63,7 +63,7 @@ const product = [
     "rentPerMonth": "136.18",
     "rentPerYear": "415.72",
     "securityDeposit": "144.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -76,7 +76,7 @@ const product = [
     "rentPerMonth": "49.43",
     "rentPerYear": "2163.22",
     "securityDeposit": "65.93",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -89,7 +89,7 @@ const product = [
     "rentPerMonth": "145.58",
     "rentPerYear": "1287.81",
     "securityDeposit": "295.08",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -102,7 +102,7 @@ const product = [
     "rentPerMonth": "168.98",
     "rentPerYear": "3294.60",
     "securityDeposit": "218.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -115,7 +115,7 @@ const product = [
     "rentPerMonth": "207.66",
     "rentPerYear": "3362.13",
     "securityDeposit": "31.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -128,7 +128,7 @@ const product = [
     "rentPerMonth": "197.50",
     "rentPerYear": "364.39",
     "securityDeposit": "237.50",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -141,7 +141,7 @@ const product = [
     "rentPerMonth": "227.68",
     "rentPerYear": "1903.97",
     "securityDeposit": "191.88",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -154,7 +154,7 @@ const product = [
     "rentPerMonth": "80.13",
     "rentPerYear": "1618.76",
     "securityDeposit": "241.63",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -167,7 +167,7 @@ const product = [
     "rentPerMonth": "82.20",
     "rentPerYear": "1436.75",
     "securityDeposit": "465.70",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -180,7 +180,7 @@ const product = [
     "rentPerMonth": "221.27",
     "rentPerYear": "420.02",
     "securityDeposit": "472.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -193,7 +193,7 @@ const product = [
     "rentPerMonth": "37.94",
     "rentPerYear": "2753.80",
     "securityDeposit": "275.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -206,7 +206,7 @@ const product = [
     "rentPerMonth": "75.69",
     "rentPerYear": "3256.17",
     "securityDeposit": "92.28",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -219,7 +219,7 @@ const product = [
     "rentPerMonth": "289.22",
     "rentPerYear": "75.84",
     "securityDeposit": "312.48",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -232,7 +232,7 @@ const product = [
     "rentPerMonth": "30.96",
     "rentPerYear": "1215.46",
     "securityDeposit": "216.45",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -245,7 +245,7 @@ const product = [
     "rentPerMonth": "125.37",
     "rentPerYear": "2503.04",
     "securityDeposit": "86.31",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -258,7 +258,7 @@ const product = [
     "rentPerMonth": "129.32",
     "rentPerYear": "1271.67",
     "securityDeposit": "488.38",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Automobiles"
   },
   {
@@ -271,7 +271,7 @@ const product = [
     "rentPerMonth": "151.48",
     "rentPerYear": "2081.40",
     "securityDeposit": "480.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -284,7 +284,7 @@ const product = [
     "rentPerMonth": "298.05",
     "rentPerYear": "1644.29",
     "securityDeposit": "168.37",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -297,7 +297,7 @@ const product = [
     "rentPerMonth": "144.80",
     "rentPerYear": "2510.47",
     "securityDeposit": "390.63",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -310,7 +310,7 @@ const product = [
     "rentPerMonth": "24.80",
     "rentPerYear": "407.03",
     "securityDeposit": "6.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -323,7 +323,7 @@ const product = [
     "rentPerMonth": "258.39",
     "rentPerYear": "2357.52",
     "securityDeposit": "450.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -336,7 +336,7 @@ const product = [
     "rentPerMonth": "113.26",
     "rentPerYear": "2048.78",
     "securityDeposit": "135.82",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -349,7 +349,7 @@ const product = [
     "rentPerMonth": "255.69",
     "rentPerYear": "1858.68",
     "securityDeposit": "338.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -362,7 +362,7 @@ const product = [
     "rentPerMonth": "87.77",
     "rentPerYear": "3073.59",
     "securityDeposit": "272.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -375,7 +375,7 @@ const product = [
     "rentPerMonth": "226.78",
     "rentPerYear": "3491.44",
     "securityDeposit": "244.94",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -388,7 +388,7 @@ const product = [
     "rentPerMonth": "167.35",
     "rentPerYear": "1030.22",
     "securityDeposit": "135.33",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -401,7 +401,7 @@ const product = [
     "rentPerMonth": "91.19",
     "rentPerYear": "1268.95",
     "securityDeposit": "3.90",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -414,7 +414,7 @@ const product = [
     "rentPerMonth": "200.44",
     "rentPerYear": "1713.01",
     "securityDeposit": "490.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -427,7 +427,7 @@ const product = [
     "rentPerMonth": "131.18",
     "rentPerYear": "2971.91",
     "securityDeposit": "352.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -440,7 +440,7 @@ const product = [
     "rentPerMonth": "20.99",
     "rentPerYear": "1739.30",
     "securityDeposit": "368.34",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -453,7 +453,7 @@ const product = [
     "rentPerMonth": "268.90",
     "rentPerYear": "2139.56",
     "securityDeposit": "206.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -466,7 +466,7 @@ const product = [
     "rentPerMonth": "114.46",
     "rentPerYear": "3136.66",
     "securityDeposit": "401.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -479,7 +479,7 @@ const product = [
     "rentPerMonth": "230.29",
     "rentPerYear": "3327.21",
     "securityDeposit": "398.62",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -492,7 +492,7 @@ const product = [
     "rentPerMonth": "230.29",
     "rentPerYear": "1829.48",
     "securityDeposit": "233.82",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -505,7 +505,7 @@ const product = [
     "rentPerMonth": "285.97",
     "rentPerYear": "1740.32",
     "securityDeposit": "143.64",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -518,7 +518,7 @@ const product = [
     "rentPerMonth": "19.73",
     "rentPerYear": "419.05",
     "securityDeposit": "488.44",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Biking & Hiking Gears"
   },
   {
@@ -531,7 +531,7 @@ const product = [
     "rentPerMonth": "1399",
     "rentPerYear": "4999",
     "securityDeposit": "399",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
 
   },
@@ -545,7 +545,7 @@ const product = [
     "rentPerMonth": "522",
     "rentPerYear": "1700",
     "securityDeposit": "399",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
 
   },
@@ -559,7 +559,7 @@ const product = [
     "rentPerMonth": "3999",
     "rentPerYear": "9999",
     "securityDeposit": "999",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
   },
   {
@@ -572,7 +572,7 @@ const product = [
     "rentPerMonth": "1299",
     "rentPerYear": "9999",
     "securityDeposit": "700",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
   },
   {
@@ -585,7 +585,7 @@ const product = [
     "rentPerMonth": "300",
     "rentPerYear": "500",
     "securityDeposit": "100",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
   },
   {
@@ -598,7 +598,7 @@ const product = [
     "rentPerMonth": "1299",
     "rentPerYear": "9999",
     "securityDeposit": "700",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
 
   },
@@ -612,7 +612,7 @@ const product = [
     "rentPerMonth": "1299",
     "rentPerYear": "9999",
     "securityDeposit": "700",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
 
   },
@@ -626,7 +626,7 @@ const product = [
     "rentPerMonth": "1299",
     "rentPerYear": "9999",
     "securityDeposit": "700",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
 
   },
@@ -640,7 +640,7 @@ const product = [
     "rentPerMonth": "1299",
     "rentPerYear": "9999",
     "securityDeposit": "700",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
 
   },
@@ -654,7 +654,7 @@ const product = [
     "rentPerMonth": "1299",
     "rentPerYear": "9999",
     "securityDeposit": "700",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
 
   },
@@ -669,7 +669,7 @@ const product = [
     "rentPerMonth": "1299",
     "rentPerYear": "9999",
     "securityDeposit": "700",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Costumes"
   },
   {
@@ -682,7 +682,7 @@ const product = [
     "rentPerMonth": "17.38",
     "rentPerYear": "2351.23",
     "securityDeposit": "226.36",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -695,7 +695,7 @@ const product = [
     "rentPerMonth": "278.77",
     "rentPerYear": "1606.62",
     "securityDeposit": "79.71",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -708,7 +708,7 @@ const product = [
     "rentPerMonth": "163.41",
     "rentPerYear": "2461.29",
     "securityDeposit": "216.63",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -721,7 +721,7 @@ const product = [
     "rentPerMonth": "197.34",
     "rentPerYear": "638.01",
     "securityDeposit": "253.09",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -734,7 +734,7 @@ const product = [
     "rentPerMonth": "34.02",
     "rentPerYear": "321.71",
     "securityDeposit": "42.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -747,7 +747,7 @@ const product = [
     "rentPerMonth": "127.64",
     "rentPerYear": "1819.17",
     "securityDeposit": "212.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -760,7 +760,7 @@ const product = [
     "rentPerMonth": "269.80",
     "rentPerYear": "275.77",
     "securityDeposit": "44.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -773,7 +773,7 @@ const product = [
     "rentPerMonth": "57.82",
     "rentPerYear": "1140.94",
     "securityDeposit": "324.84",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -786,7 +786,7 @@ const product = [
     "rentPerMonth": "151.92",
     "rentPerYear": "1103.18",
     "securityDeposit": "426.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -799,7 +799,7 @@ const product = [
     "rentPerMonth": "117.18",
     "rentPerYear": "2537.09",
     "securityDeposit": "398.59",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -812,7 +812,7 @@ const product = [
     "rentPerMonth": "138.29",
     "rentPerYear": "2960.96",
     "securityDeposit": "136.43",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -825,7 +825,7 @@ const product = [
     "rentPerMonth": "171.35",
     "rentPerYear": "2024.20",
     "securityDeposit": "209.47",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -838,7 +838,7 @@ const product = [
     "rentPerMonth": "233.89",
     "rentPerYear": "1741.69",
     "securityDeposit": "431.98",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -851,7 +851,7 @@ const product = [
     "rentPerMonth": "196.27",
     "rentPerYear": "3411.57",
     "securityDeposit": "51.06",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -864,7 +864,7 @@ const product = [
     "rentPerMonth": "276.84",
     "rentPerYear": "1725.98",
     "securityDeposit": "486.30",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -877,7 +877,7 @@ const product = [
     "rentPerMonth": "107.80",
     "rentPerYear": "1773.78",
     "securityDeposit": "145.84",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -890,7 +890,7 @@ const product = [
     "rentPerMonth": "189.90",
     "rentPerYear": "766.50",
     "securityDeposit": "319.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -903,7 +903,7 @@ const product = [
     "rentPerMonth": "141.81",
     "rentPerYear": "1042.01",
     "securityDeposit": "452.62",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -916,7 +916,7 @@ const product = [
     "rentPerMonth": "128.55",
     "rentPerYear": "1914.51",
     "securityDeposit": "432.87",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -929,7 +929,7 @@ const product = [
     "rentPerMonth": "262.39",
     "rentPerYear": "501.35",
     "securityDeposit": "385.28",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Books"
   },
   {
@@ -942,7 +942,7 @@ const product = [
     "rentPerMonth": "230.66",
     "rentPerYear": "2832.84",
     "securityDeposit": "290.36",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -955,7 +955,7 @@ const product = [
     "rentPerMonth": "145.83",
     "rentPerYear": "3291.94",
     "securityDeposit": "257.12",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -968,7 +968,7 @@ const product = [
     "rentPerMonth": "281.51",
     "rentPerYear": "2432.33",
     "securityDeposit": "300.39",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -981,7 +981,7 @@ const product = [
     "rentPerMonth": "23.86",
     "rentPerYear": "2005.41",
     "securityDeposit": "94.74",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -994,7 +994,7 @@ const product = [
     "rentPerMonth": "263.56",
     "rentPerYear": "1420.12",
     "securityDeposit": "388.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1007,7 +1007,7 @@ const product = [
     "rentPerMonth": "198.16",
     "rentPerYear": "2077.82",
     "securityDeposit": "320.26",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1020,7 +1020,7 @@ const product = [
     "rentPerMonth": "250.22",
     "rentPerYear": "1269.50",
     "securityDeposit": "331.32",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1033,7 +1033,7 @@ const product = [
     "rentPerMonth": "276.53",
     "rentPerYear": "1692.18",
     "securityDeposit": "234.04",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1046,7 +1046,7 @@ const product = [
     "rentPerMonth": "55.73",
     "rentPerYear": "1897.85",
     "securityDeposit": "378.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1059,7 +1059,7 @@ const product = [
     "rentPerMonth": "2.10",
     "rentPerYear": "1646.58",
     "securityDeposit": "401.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1072,7 +1072,7 @@ const product = [
     "rentPerMonth": "31.58",
     "rentPerYear": "1271.56",
     "securityDeposit": "87.45",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1085,7 +1085,7 @@ const product = [
     "rentPerMonth": "116.92",
     "rentPerYear": "1125.91",
     "securityDeposit": "437.60",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1098,7 +1098,7 @@ const product = [
     "rentPerMonth": "212.94",
     "rentPerYear": "3268.60",
     "securityDeposit": "165.62",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1111,7 +1111,7 @@ const product = [
     "rentPerMonth": "244.37",
     "rentPerYear": "2908.54",
     "securityDeposit": "288.29",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1124,7 +1124,7 @@ const product = [
     "rentPerMonth": "145.20",
     "rentPerYear": "2328.74",
     "securityDeposit": "212.66",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1137,7 +1137,7 @@ const product = [
     "rentPerMonth": "97.15",
     "rentPerYear": "1308.83",
     "securityDeposit": "138.42",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1150,7 +1150,7 @@ const product = [
     "rentPerMonth": "273.52",
     "rentPerYear": "900.19",
     "securityDeposit": "368.42",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1163,7 +1163,7 @@ const product = [
     "rentPerMonth": "218.32",
     "rentPerYear": "3046.03",
     "securityDeposit": "489.42",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1176,7 +1176,7 @@ const product = [
     "rentPerMonth": "131.47",
     "rentPerYear": "2134.55",
     "securityDeposit": "90.81",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1189,7 +1189,7 @@ const product = [
     "rentPerMonth": "197.69",
     "rentPerYear": "2286.95",
     "securityDeposit": "37.41",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Camera & Lenseses"
   },
   {
@@ -1202,7 +1202,7 @@ const product = [
     "rentPerMonth": "76.52",
     "rentPerYear": "451.62",
     "securityDeposit": "396.72",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1215,7 +1215,7 @@ const product = [
     "rentPerMonth": "40.16",
     "rentPerYear": "747.20",
     "securityDeposit": "102.47",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1228,7 +1228,7 @@ const product = [
     "rentPerMonth": "298.88",
     "rentPerYear": "442.73",
     "securityDeposit": "384.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1241,7 +1241,7 @@ const product = [
     "rentPerMonth": "5.98",
     "rentPerYear": "200.20",
     "securityDeposit": "475.27",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1254,7 +1254,7 @@ const product = [
     "rentPerMonth": "61.62",
     "rentPerYear": "2714.59",
     "securityDeposit": "293.57",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1267,7 +1267,7 @@ const product = [
     "rentPerMonth": "49.34",
     "rentPerYear": "1272.63",
     "securityDeposit": "80.83",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1280,7 +1280,7 @@ const product = [
     "rentPerMonth": "7.65",
     "rentPerYear": "849.14",
     "securityDeposit": "5.05",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1293,7 +1293,7 @@ const product = [
     "rentPerMonth": "97.96",
     "rentPerYear": "1147.81",
     "securityDeposit": "225.42",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1306,7 +1306,7 @@ const product = [
     "rentPerMonth": "12.72",
     "rentPerYear": "2422.47",
     "securityDeposit": "307.25",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1319,7 +1319,7 @@ const product = [
     "rentPerMonth": "120.63",
     "rentPerYear": "1322.39",
     "securityDeposit": "86.88",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1332,7 +1332,7 @@ const product = [
     "rentPerMonth": "122.93",
     "rentPerYear": "178.09",
     "securityDeposit": "6.01",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1345,7 +1345,7 @@ const product = [
     "rentPerMonth": "7.21",
     "rentPerYear": "1760.92",
     "securityDeposit": "33.01",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1358,7 +1358,7 @@ const product = [
     "rentPerMonth": "175.27",
     "rentPerYear": "1761.16",
     "securityDeposit": "190.73",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1371,7 +1371,7 @@ const product = [
     "rentPerMonth": "196.43",
     "rentPerYear": "2338.87",
     "securityDeposit": "320.34",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1384,7 +1384,7 @@ const product = [
     "rentPerMonth": "255.56",
     "rentPerYear": "1641.22",
     "securityDeposit": "442.08",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1397,7 +1397,7 @@ const product = [
     "rentPerMonth": "281.77",
     "rentPerYear": "1802.74",
     "securityDeposit": "32.91",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1410,7 +1410,7 @@ const product = [
     "rentPerMonth": "219.28",
     "rentPerYear": "79.79",
     "securityDeposit": "145.74",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1423,7 +1423,7 @@ const product = [
     "rentPerMonth": "23.52",
     "rentPerYear": "438.89",
     "securityDeposit": "299.04",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1436,7 +1436,7 @@ const product = [
     "rentPerMonth": "1.64",
     "rentPerYear": "2288.60",
     "securityDeposit": "105.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1449,7 +1449,7 @@ const product = [
     "rentPerMonth": "65.84",
     "rentPerYear": "408.26",
     "securityDeposit": "67.94",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Construction Machines & Manpower"
   },
   {
@@ -1462,7 +1462,7 @@ const product = [
     "rentPerMonth": "14.72",
     "rentPerYear": "244.06",
     "securityDeposit": "119.84",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1475,7 +1475,7 @@ const product = [
     "rentPerMonth": "262.65",
     "rentPerYear": "827.43",
     "securityDeposit": "284.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1488,7 +1488,7 @@ const product = [
     "rentPerMonth": "265.68",
     "rentPerYear": "605.61",
     "securityDeposit": "56.34",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1501,7 +1501,7 @@ const product = [
     "rentPerMonth": "277.57",
     "rentPerYear": "114.56",
     "securityDeposit": "220.65",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1514,7 +1514,7 @@ const product = [
     "rentPerMonth": "68.50",
     "rentPerYear": "3247.84",
     "securityDeposit": "415.70",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1527,7 +1527,7 @@ const product = [
     "rentPerMonth": "201.39",
     "rentPerYear": "1049.44",
     "securityDeposit": "89.76",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1540,7 +1540,7 @@ const product = [
     "rentPerMonth": "182.90",
     "rentPerYear": "1783.64",
     "securityDeposit": "76.50",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1553,7 +1553,7 @@ const product = [
     "rentPerMonth": "205.60",
     "rentPerYear": "2575.15",
     "securityDeposit": "194.58",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1566,7 +1566,7 @@ const product = [
     "rentPerMonth": "172.04",
     "rentPerYear": "59.72",
     "securityDeposit": "485.17",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1579,7 +1579,7 @@ const product = [
     "rentPerMonth": "206.32",
     "rentPerYear": "3386.61",
     "securityDeposit": "40.60",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1592,7 +1592,7 @@ const product = [
     "rentPerMonth": "280.18",
     "rentPerYear": "1781.98",
     "securityDeposit": "485.26",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1605,7 +1605,7 @@ const product = [
     "rentPerMonth": "224.40",
     "rentPerYear": "1267.15",
     "securityDeposit": "193.49",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1618,7 +1618,7 @@ const product = [
     "rentPerMonth": "199.83",
     "rentPerYear": "546.23",
     "securityDeposit": "95.61",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1631,7 +1631,7 @@ const product = [
     "rentPerMonth": "8.83",
     "rentPerYear": "3419.93",
     "securityDeposit": "202.19",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1644,7 +1644,7 @@ const product = [
     "rentPerMonth": "269.67",
     "rentPerYear": "693.71",
     "securityDeposit": "317.67",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1657,7 +1657,7 @@ const product = [
     "rentPerMonth": "43.65",
     "rentPerYear": "1950.45",
     "securityDeposit": "295.58",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1670,7 +1670,7 @@ const product = [
     "rentPerMonth": "265.06",
     "rentPerYear": "3179.36",
     "securityDeposit": "166.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1683,7 +1683,7 @@ const product = [
     "rentPerMonth": "162.50",
     "rentPerYear": "2243.19",
     "securityDeposit": "348.66",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1696,7 +1696,7 @@ const product = [
     "rentPerMonth": "151.27",
     "rentPerYear": "459.73",
     "securityDeposit": "328.48",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1709,7 +1709,7 @@ const product = [
     "rentPerMonth": "158.89",
     "rentPerYear": "2321.52",
     "securityDeposit": "108.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Drones"
   },
   {
@@ -1722,7 +1722,7 @@ const product = [
     "rentPerMonth": "95.95",
     "rentPerYear": "374.39",
     "securityDeposit": "392.93",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1735,7 +1735,7 @@ const product = [
     "rentPerMonth": "246.16",
     "rentPerYear": "1868.75",
     "securityDeposit": "424.59",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1748,7 +1748,7 @@ const product = [
     "rentPerMonth": "73.37",
     "rentPerYear": "2949.60",
     "securityDeposit": "261.15",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1761,7 +1761,7 @@ const product = [
     "rentPerMonth": "260.67",
     "rentPerYear": "1736.45",
     "securityDeposit": "63.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1774,7 +1774,7 @@ const product = [
     "rentPerMonth": "170.87",
     "rentPerYear": "1607.55",
     "securityDeposit": "57.34",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1787,7 +1787,7 @@ const product = [
     "rentPerMonth": "186.32",
     "rentPerYear": "1183.08",
     "securityDeposit": "211.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1800,7 +1800,7 @@ const product = [
     "rentPerMonth": "126.18",
     "rentPerYear": "1714.98",
     "securityDeposit": "119.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1813,7 +1813,7 @@ const product = [
     "rentPerMonth": "0.69",
     "rentPerYear": "2321.70",
     "securityDeposit": "278.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1826,7 +1826,7 @@ const product = [
     "rentPerMonth": "45.70",
     "rentPerYear": "1328.26",
     "securityDeposit": "351.94",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1839,7 +1839,7 @@ const product = [
     "rentPerMonth": "87.47",
     "rentPerYear": "703.08",
     "securityDeposit": "65.19",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1852,7 +1852,7 @@ const product = [
     "rentPerMonth": "205.74",
     "rentPerYear": "917.93",
     "securityDeposit": "97.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1865,7 +1865,7 @@ const product = [
     "rentPerMonth": "68.95",
     "rentPerYear": "2542.51",
     "securityDeposit": "348.20",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1878,7 +1878,7 @@ const product = [
     "rentPerMonth": "1.60",
     "rentPerYear": "1825.01",
     "securityDeposit": "236.74",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1891,7 +1891,7 @@ const product = [
     "rentPerMonth": "114.63",
     "rentPerYear": "1024.02",
     "securityDeposit": "294.84",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1904,7 +1904,7 @@ const product = [
     "rentPerMonth": "99.24",
     "rentPerYear": "3488.15",
     "securityDeposit": "12.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1917,7 +1917,7 @@ const product = [
     "rentPerMonth": "202.14",
     "rentPerYear": "3271.17",
     "securityDeposit": "429.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1930,7 +1930,7 @@ const product = [
     "rentPerMonth": "65.85",
     "rentPerYear": "3373.57",
     "securityDeposit": "400.29",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1943,7 +1943,7 @@ const product = [
     "rentPerMonth": "113.20",
     "rentPerYear": "3539.88",
     "securityDeposit": "78.59",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1956,7 +1956,7 @@ const product = [
     "rentPerMonth": "36.98",
     "rentPerYear": "814.77",
     "securityDeposit": "1.16",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1969,7 +1969,7 @@ const product = [
     "rentPerMonth": "66.93",
     "rentPerYear": "1671.22",
     "securityDeposit": "352.18",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Electronics"
   },
   {
@@ -1982,7 +1982,7 @@ const product = [
     "rentPerMonth": "27.54",
     "rentPerYear": "192.48",
     "securityDeposit": "377.85",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -1995,7 +1995,7 @@ const product = [
     "rentPerMonth": "241.25",
     "rentPerYear": "1226.49",
     "securityDeposit": "98.01",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2008,7 +2008,7 @@ const product = [
     "rentPerMonth": "151.79",
     "rentPerYear": "405.88",
     "securityDeposit": "496.29",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2021,7 +2021,7 @@ const product = [
     "rentPerMonth": "207.82",
     "rentPerYear": "3578.58",
     "securityDeposit": "3.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2034,7 +2034,7 @@ const product = [
     "rentPerMonth": "101.13",
     "rentPerYear": "1906.97",
     "securityDeposit": "348.06",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2047,7 +2047,7 @@ const product = [
     "rentPerMonth": "29.98",
     "rentPerYear": "1907.92",
     "securityDeposit": "36.38",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2060,7 +2060,7 @@ const product = [
     "rentPerMonth": "153.61",
     "rentPerYear": "2788.00",
     "securityDeposit": "14.15",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2073,7 +2073,7 @@ const product = [
     "rentPerMonth": "296.63",
     "rentPerYear": "1801.84",
     "securityDeposit": "408.02",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2086,7 +2086,7 @@ const product = [
     "rentPerMonth": "232.52",
     "rentPerYear": "1614.28",
     "securityDeposit": "469.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2099,7 +2099,7 @@ const product = [
     "rentPerMonth": "156.37",
     "rentPerYear": "496.82",
     "securityDeposit": "37.59",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2112,7 +2112,7 @@ const product = [
     "rentPerMonth": "125.48",
     "rentPerYear": "2130.85",
     "securityDeposit": "389.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2125,7 +2125,7 @@ const product = [
     "rentPerMonth": "159.06",
     "rentPerYear": "2837.21",
     "securityDeposit": "250.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2138,7 +2138,7 @@ const product = [
     "rentPerMonth": "215.10",
     "rentPerYear": "3239.54",
     "securityDeposit": "19.09",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2151,7 +2151,7 @@ const product = [
     "rentPerMonth": "5.09",
     "rentPerYear": "2199.14",
     "securityDeposit": "183.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2164,7 +2164,7 @@ const product = [
     "rentPerMonth": "177.58",
     "rentPerYear": "994.32",
     "securityDeposit": "278.65",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2177,7 +2177,7 @@ const product = [
     "rentPerMonth": "171.71",
     "rentPerYear": "1458.74",
     "securityDeposit": "135.09",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2190,7 +2190,7 @@ const product = [
     "rentPerMonth": "132.91",
     "rentPerYear": "2294.81",
     "securityDeposit": "354.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2203,7 +2203,7 @@ const product = [
     "rentPerMonth": "13.92",
     "rentPerYear": "1485.92",
     "securityDeposit": "133.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2216,7 +2216,7 @@ const product = [
     "rentPerMonth": "209.43",
     "rentPerYear": "2212.28",
     "securityDeposit": "423.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2229,7 +2229,7 @@ const product = [
     "rentPerMonth": "55.57",
     "rentPerYear": "933.44",
     "securityDeposit": "53.67",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Events"
   },
   {
@@ -2242,7 +2242,7 @@ const product = [
     "rentPerMonth": "10.14",
     "rentPerYear": "2189.54",
     "securityDeposit": "480.35",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2255,7 +2255,7 @@ const product = [
     "rentPerMonth": "177.53",
     "rentPerYear": "3376.78",
     "securityDeposit": "306.81",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2268,7 +2268,7 @@ const product = [
     "rentPerMonth": "264.87",
     "rentPerYear": "2133.53",
     "securityDeposit": "376.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2281,7 +2281,7 @@ const product = [
     "rentPerMonth": "49.16",
     "rentPerYear": "1851.22",
     "securityDeposit": "286.19",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2294,7 +2294,7 @@ const product = [
     "rentPerMonth": "88.34",
     "rentPerYear": "3323.98",
     "securityDeposit": "284.60",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2307,7 +2307,7 @@ const product = [
     "rentPerMonth": "86.66",
     "rentPerYear": "3220.29",
     "securityDeposit": "2.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2320,7 +2320,7 @@ const product = [
     "rentPerMonth": "64.71",
     "rentPerYear": "1394.91",
     "securityDeposit": "200.87",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2333,7 +2333,7 @@ const product = [
     "rentPerMonth": "192.29",
     "rentPerYear": "2764.74",
     "securityDeposit": "182.15",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2346,7 +2346,7 @@ const product = [
     "rentPerMonth": "164.64",
     "rentPerYear": "946.83",
     "securityDeposit": "5.74",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2359,7 +2359,7 @@ const product = [
     "rentPerMonth": "290.04",
     "rentPerYear": "1764.50",
     "securityDeposit": "380.61",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2372,7 +2372,7 @@ const product = [
     "rentPerMonth": "14.58",
     "rentPerYear": "2090.98",
     "securityDeposit": "239.70",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2385,7 +2385,7 @@ const product = [
     "rentPerMonth": "172.69",
     "rentPerYear": "108.52",
     "securityDeposit": "268.81",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2398,7 +2398,7 @@ const product = [
     "rentPerMonth": "182.25",
     "rentPerYear": "2565.93",
     "securityDeposit": "87.36",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2411,7 +2411,7 @@ const product = [
     "rentPerMonth": "231.33",
     "rentPerYear": "1744.61",
     "securityDeposit": "107.37",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2424,7 +2424,7 @@ const product = [
     "rentPerMonth": "121.29",
     "rentPerYear": "871.49",
     "securityDeposit": "150.05",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2437,7 +2437,7 @@ const product = [
     "rentPerMonth": "180.56",
     "rentPerYear": "3522.71",
     "securityDeposit": "443.09",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2450,7 +2450,7 @@ const product = [
     "rentPerMonth": "188.20",
     "rentPerYear": "350.30",
     "securityDeposit": "70.37",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2463,7 +2463,7 @@ const product = [
     "rentPerMonth": "180.48",
     "rentPerYear": "498.96",
     "securityDeposit": "491.12",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2476,7 +2476,7 @@ const product = [
     "rentPerMonth": "241.02",
     "rentPerYear": "2031.14",
     "securityDeposit": "27.41",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2489,7 +2489,7 @@ const product = [
     "rentPerMonth": "117.19",
     "rentPerYear": "29.10",
     "securityDeposit": "70.70",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Fitness & Sports Equipment"
   },
   {
@@ -2502,7 +2502,7 @@ const product = [
     "rentPerMonth": "220.98",
     "rentPerYear": "1122.50",
     "securityDeposit": "92.00",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2515,7 +2515,7 @@ const product = [
     "rentPerMonth": "188.26",
     "rentPerYear": "345.36",
     "securityDeposit": "57.59",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2528,7 +2528,7 @@ const product = [
     "rentPerMonth": "65.92",
     "rentPerYear": "880.55",
     "securityDeposit": "19.18",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2541,7 +2541,7 @@ const product = [
     "rentPerMonth": "280.73",
     "rentPerYear": "1121.57",
     "securityDeposit": "135.20",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2554,7 +2554,7 @@ const product = [
     "rentPerMonth": "29.99",
     "rentPerYear": "3404.26",
     "securityDeposit": "226.86",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2567,7 +2567,7 @@ const product = [
     "rentPerMonth": "84.92",
     "rentPerYear": "703.31",
     "securityDeposit": "200.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2580,7 +2580,7 @@ const product = [
     "rentPerMonth": "281.54",
     "rentPerYear": "3373.51",
     "securityDeposit": "232.31",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2593,7 +2593,7 @@ const product = [
     "rentPerMonth": "161.93",
     "rentPerYear": "39.38",
     "securityDeposit": "378.30",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2606,7 +2606,7 @@ const product = [
     "rentPerMonth": "193.73",
     "rentPerYear": "1667.72",
     "securityDeposit": "71.11",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2619,7 +2619,7 @@ const product = [
     "rentPerMonth": "249.97",
     "rentPerYear": "88.10",
     "securityDeposit": "113.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2632,7 +2632,7 @@ const product = [
     "rentPerMonth": "110.04",
     "rentPerYear": "3332.84",
     "securityDeposit": "132.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2645,7 +2645,7 @@ const product = [
     "rentPerMonth": "65.77",
     "rentPerYear": "3120.93",
     "securityDeposit": "283.13",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2658,7 +2658,7 @@ const product = [
     "rentPerMonth": "145.72",
     "rentPerYear": "213.14",
     "securityDeposit": "184.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2671,7 +2671,7 @@ const product = [
     "rentPerMonth": "134.71",
     "rentPerYear": "1626.37",
     "securityDeposit": "286.42",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2684,7 +2684,7 @@ const product = [
     "rentPerMonth": "224.79",
     "rentPerYear": "680.72",
     "securityDeposit": "196.76",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2697,7 +2697,7 @@ const product = [
     "rentPerMonth": "130.18",
     "rentPerYear": "1217.38",
     "securityDeposit": "394.18",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2710,7 +2710,7 @@ const product = [
     "rentPerMonth": "18.42",
     "rentPerYear": "72.12",
     "securityDeposit": "115.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2723,7 +2723,7 @@ const product = [
     "rentPerMonth": "248.83",
     "rentPerYear": "2055.14",
     "securityDeposit": "493.09",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2736,7 +2736,7 @@ const product = [
     "rentPerMonth": "228.46",
     "rentPerYear": "1875.69",
     "securityDeposit": "215.38",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2749,7 +2749,7 @@ const product = [
     "rentPerMonth": "264.48",
     "rentPerYear": "2121.50",
     "securityDeposit": "279.43",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Furniture"
   },
   {
@@ -2762,7 +2762,7 @@ const product = [
     "rentPerMonth": "123.40",
     "rentPerYear": "349.08",
     "securityDeposit": "367.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2775,7 +2775,7 @@ const product = [
     "rentPerMonth": "183.58",
     "rentPerYear": "2186.87",
     "securityDeposit": "234.09",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2788,7 +2788,7 @@ const product = [
     "rentPerMonth": "54.80",
     "rentPerYear": "220.82",
     "securityDeposit": "41.67",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2801,7 +2801,7 @@ const product = [
     "rentPerMonth": "33.08",
     "rentPerYear": "2182.95",
     "securityDeposit": "326.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2814,7 +2814,7 @@ const product = [
     "rentPerMonth": "207.67",
     "rentPerYear": "250.29",
     "securityDeposit": "142.79",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2827,7 +2827,7 @@ const product = [
     "rentPerMonth": "284.18",
     "rentPerYear": "1433.14",
     "securityDeposit": "419.30",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2840,7 +2840,7 @@ const product = [
     "rentPerMonth": "143.07",
     "rentPerYear": "1348.56",
     "securityDeposit": "217.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2853,7 +2853,7 @@ const product = [
     "rentPerMonth": "50.14",
     "rentPerYear": "1871.85",
     "securityDeposit": "343.90",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2866,7 +2866,7 @@ const product = [
     "rentPerMonth": "173.22",
     "rentPerYear": "2116.03",
     "securityDeposit": "291.84",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2879,7 +2879,7 @@ const product = [
     "rentPerMonth": "67.86",
     "rentPerYear": "1626.14",
     "securityDeposit": "32.41",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2892,7 +2892,7 @@ const product = [
     "rentPerMonth": "165.49",
     "rentPerYear": "308.34",
     "securityDeposit": "64.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2905,7 +2905,7 @@ const product = [
     "rentPerMonth": "3.33",
     "rentPerYear": "711.66",
     "securityDeposit": "49.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2918,7 +2918,7 @@ const product = [
     "rentPerMonth": "185.97",
     "rentPerYear": "1311.98",
     "securityDeposit": "363.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2931,7 +2931,7 @@ const product = [
     "rentPerMonth": "69.84",
     "rentPerYear": "2869.51",
     "securityDeposit": "211.41",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2944,7 +2944,7 @@ const product = [
     "rentPerMonth": "234.03",
     "rentPerYear": "35.03",
     "securityDeposit": "53.97",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2957,7 +2957,7 @@ const product = [
     "rentPerMonth": "211.68",
     "rentPerYear": "778.74",
     "securityDeposit": "320.58",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2970,7 +2970,7 @@ const product = [
     "rentPerMonth": "147.37",
     "rentPerYear": "2288.57",
     "securityDeposit": "201.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2983,7 +2983,7 @@ const product = [
     "rentPerMonth": "56.35",
     "rentPerYear": "1338.99",
     "securityDeposit": "365.62",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -2996,7 +2996,7 @@ const product = [
     "rentPerMonth": "200.13",
     "rentPerYear": "341.57",
     "securityDeposit": "359.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -3009,7 +3009,7 @@ const product = [
     "rentPerMonth": "128.71",
     "rentPerYear": "2732.45",
     "securityDeposit": "235.41",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Gardening"
   },
   {
@@ -3022,7 +3022,7 @@ const product = [
     "rentPerMonth": "174.43",
     "rentPerYear": "2479.25",
     "securityDeposit": "346.71",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3035,7 +3035,7 @@ const product = [
     "rentPerMonth": "15.84",
     "rentPerYear": "3231.63",
     "securityDeposit": "72.37",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3048,7 +3048,7 @@ const product = [
     "rentPerMonth": "150.91",
     "rentPerYear": "96.61",
     "securityDeposit": "153.57",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3061,7 +3061,7 @@ const product = [
     "rentPerMonth": "3.05",
     "rentPerYear": "1517.98",
     "securityDeposit": "232.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3074,7 +3074,7 @@ const product = [
     "rentPerMonth": "140.90",
     "rentPerYear": "1555.32",
     "securityDeposit": "408.73",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3087,7 +3087,7 @@ const product = [
     "rentPerMonth": "34.47",
     "rentPerYear": "2581.13",
     "securityDeposit": "452.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3100,7 +3100,7 @@ const product = [
     "rentPerMonth": "19.15",
     "rentPerYear": "775.58",
     "securityDeposit": "393.79",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3113,7 +3113,7 @@ const product = [
     "rentPerMonth": "228.01",
     "rentPerYear": "54.49",
     "securityDeposit": "471.51",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3126,7 +3126,7 @@ const product = [
     "rentPerMonth": "262.33",
     "rentPerYear": "3519.27",
     "securityDeposit": "267.73",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3139,7 +3139,7 @@ const product = [
     "rentPerMonth": "181.26",
     "rentPerYear": "3464.52",
     "securityDeposit": "110.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3152,7 +3152,7 @@ const product = [
     "rentPerMonth": "194.01",
     "rentPerYear": "1951.10",
     "securityDeposit": "424.90",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3165,7 +3165,7 @@ const product = [
     "rentPerMonth": "163.13",
     "rentPerYear": "2915.73",
     "securityDeposit": "87.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3178,7 +3178,7 @@ const product = [
     "rentPerMonth": "35.83",
     "rentPerYear": "40.28",
     "securityDeposit": "29.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3191,7 +3191,7 @@ const product = [
     "rentPerMonth": "285.18",
     "rentPerYear": "439.67",
     "securityDeposit": "313.45",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3204,7 +3204,7 @@ const product = [
     "rentPerMonth": "143.02",
     "rentPerYear": "2472.84",
     "securityDeposit": "333.39",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3217,7 +3217,7 @@ const product = [
     "rentPerMonth": "209.03",
     "rentPerYear": "831.40",
     "securityDeposit": "400.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3230,7 +3230,7 @@ const product = [
     "rentPerMonth": "295.78",
     "rentPerYear": "86.67",
     "securityDeposit": "229.94",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3243,7 +3243,7 @@ const product = [
     "rentPerMonth": "58.90",
     "rentPerYear": "2201.86",
     "securityDeposit": "44.60",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3256,7 +3256,7 @@ const product = [
     "rentPerMonth": "140.62",
     "rentPerYear": "1042.30",
     "securityDeposit": "325.02",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3269,7 +3269,7 @@ const product = [
     "rentPerMonth": "29.21",
     "rentPerYear": "2184.32",
     "securityDeposit": "86.18",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Generators"
   },
   {
@@ -3282,7 +3282,7 @@ const product = [
     "rentPerMonth": "284.02",
     "rentPerYear": "1502.29",
     "securityDeposit": "180.71",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3295,7 +3295,7 @@ const product = [
     "rentPerMonth": "232.00",
     "rentPerYear": "2565.54",
     "securityDeposit": "290.59",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3308,7 +3308,7 @@ const product = [
     "rentPerMonth": "173.54",
     "rentPerYear": "72.15",
     "securityDeposit": "327.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3321,7 +3321,7 @@ const product = [
     "rentPerMonth": "100.94",
     "rentPerYear": "2532.57",
     "securityDeposit": "208.12",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3334,7 +3334,7 @@ const product = [
     "rentPerMonth": "93.49",
     "rentPerYear": "2891.70",
     "securityDeposit": "87.73",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3347,7 +3347,7 @@ const product = [
     "rentPerMonth": "138.03",
     "rentPerYear": "3287.66",
     "securityDeposit": "340.78",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3360,7 +3360,7 @@ const product = [
     "rentPerMonth": "172.54",
     "rentPerYear": "1017.26",
     "securityDeposit": "94.82",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3373,7 +3373,7 @@ const product = [
     "rentPerMonth": "293.27",
     "rentPerYear": "3269.89",
     "securityDeposit": "248.78",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3386,7 +3386,7 @@ const product = [
     "rentPerMonth": "110.99",
     "rentPerYear": "2906.85",
     "securityDeposit": "338.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3399,7 +3399,7 @@ const product = [
     "rentPerMonth": "151.88",
     "rentPerYear": "2324.06",
     "securityDeposit": "128.91",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3412,7 +3412,7 @@ const product = [
     "rentPerMonth": "276.94",
     "rentPerYear": "3319.17",
     "securityDeposit": "391.07",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3425,7 +3425,7 @@ const product = [
     "rentPerMonth": "42.49",
     "rentPerYear": "701.30",
     "securityDeposit": "42.79",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3438,7 +3438,7 @@ const product = [
     "rentPerMonth": "37.98",
     "rentPerYear": "2415.36",
     "securityDeposit": "74.53",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3451,7 +3451,7 @@ const product = [
     "rentPerMonth": "35.89",
     "rentPerYear": "1796.46",
     "securityDeposit": "80.20",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3464,7 +3464,7 @@ const product = [
     "rentPerMonth": "143.26",
     "rentPerYear": "1032.52",
     "securityDeposit": "298.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3477,7 +3477,7 @@ const product = [
     "rentPerMonth": "260.19",
     "rentPerYear": "1226.10",
     "securityDeposit": "471.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3490,7 +3490,7 @@ const product = [
     "rentPerMonth": "297.93",
     "rentPerYear": "3438.42",
     "securityDeposit": "469.60",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3503,7 +3503,7 @@ const product = [
     "rentPerMonth": "190.82",
     "rentPerYear": "1081.34",
     "securityDeposit": "216.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3516,7 +3516,7 @@ const product = [
     "rentPerMonth": "48.39",
     "rentPerYear": "1195.59",
     "securityDeposit": "449.44",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3529,7 +3529,7 @@ const product = [
     "rentPerMonth": "100.26",
     "rentPerYear": "1758.11",
     "securityDeposit": "130.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Home Appliance"
   },
   {
@@ -3542,7 +3542,7 @@ const product = [
     "rentPerMonth": "205.58",
     "rentPerYear": "213.93",
     "securityDeposit": "440.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3555,7 +3555,7 @@ const product = [
     "rentPerMonth": "9.55",
     "rentPerYear": "2074.51",
     "securityDeposit": "240.86",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3568,7 +3568,7 @@ const product = [
     "rentPerMonth": "24.95",
     "rentPerYear": "3457.79",
     "securityDeposit": "115.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3581,7 +3581,7 @@ const product = [
     "rentPerMonth": "290.91",
     "rentPerYear": "3548.02",
     "securityDeposit": "123.63",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3594,7 +3594,7 @@ const product = [
     "rentPerMonth": "35.96",
     "rentPerYear": "1791.14",
     "securityDeposit": "312.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3607,7 +3607,7 @@ const product = [
     "rentPerMonth": "11.50",
     "rentPerYear": "1897.78",
     "securityDeposit": "370.71",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3620,7 +3620,7 @@ const product = [
     "rentPerMonth": "266.57",
     "rentPerYear": "2703.39",
     "securityDeposit": "35.59",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3633,7 +3633,7 @@ const product = [
     "rentPerMonth": "100.51",
     "rentPerYear": "3552.01",
     "securityDeposit": "483.83",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3646,7 +3646,7 @@ const product = [
     "rentPerMonth": "193.32",
     "rentPerYear": "264.41",
     "securityDeposit": "279.11",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3659,7 +3659,7 @@ const product = [
     "rentPerMonth": "246.74",
     "rentPerYear": "1673.41",
     "securityDeposit": "389.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3672,7 +3672,7 @@ const product = [
     "rentPerMonth": "51.55",
     "rentPerYear": "558.11",
     "securityDeposit": "261.41",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3685,7 +3685,7 @@ const product = [
     "rentPerMonth": "192.71",
     "rentPerYear": "2989.68",
     "securityDeposit": "24.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3698,7 +3698,7 @@ const product = [
     "rentPerMonth": "19.95",
     "rentPerYear": "2026.95",
     "securityDeposit": "102.96",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3711,7 +3711,7 @@ const product = [
     "rentPerMonth": "293.60",
     "rentPerYear": "2707.23",
     "securityDeposit": "312.36",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3724,7 +3724,7 @@ const product = [
     "rentPerMonth": "50.70",
     "rentPerYear": "393.58",
     "securityDeposit": "181.44",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3737,7 +3737,7 @@ const product = [
     "rentPerMonth": "202.58",
     "rentPerYear": "57.54",
     "securityDeposit": "21.89",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3750,7 +3750,7 @@ const product = [
     "rentPerMonth": "3.50",
     "rentPerYear": "2513.48",
     "securityDeposit": "190.13",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3763,7 +3763,7 @@ const product = [
     "rentPerMonth": "172.30",
     "rentPerYear": "1883.35",
     "securityDeposit": "64.93",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3776,7 +3776,7 @@ const product = [
     "rentPerMonth": "152.78",
     "rentPerYear": "1422.33",
     "securityDeposit": "107.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3789,7 +3789,7 @@ const product = [
     "rentPerMonth": "291.26",
     "rentPerYear": "2139.97",
     "securityDeposit": "42.74",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Jewellery"
   },
   {
@@ -3802,7 +3802,7 @@ const product = [
     "rentPerMonth": "285.28",
     "rentPerYear": "1768.14",
     "securityDeposit": "442.91",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3815,7 +3815,7 @@ const product = [
     "rentPerMonth": "78.61",
     "rentPerYear": "1354.10",
     "securityDeposit": "278.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3828,7 +3828,7 @@ const product = [
     "rentPerMonth": "150.13",
     "rentPerYear": "1514.44",
     "securityDeposit": "229.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3841,7 +3841,7 @@ const product = [
     "rentPerMonth": "162.52",
     "rentPerYear": "1611.98",
     "securityDeposit": "352.45",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3854,7 +3854,7 @@ const product = [
     "rentPerMonth": "229.89",
     "rentPerYear": "2631.85",
     "securityDeposit": "415.37",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3867,7 +3867,7 @@ const product = [
     "rentPerMonth": "276.15",
     "rentPerYear": "2865.04",
     "securityDeposit": "113.23",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3880,7 +3880,7 @@ const product = [
     "rentPerMonth": "161.20",
     "rentPerYear": "1102.47",
     "securityDeposit": "220.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3893,7 +3893,7 @@ const product = [
     "rentPerMonth": "293.58",
     "rentPerYear": "2662.96",
     "securityDeposit": "141.61",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3906,7 +3906,7 @@ const product = [
     "rentPerMonth": "273.85",
     "rentPerYear": "3495.87",
     "securityDeposit": "471.95",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3919,7 +3919,7 @@ const product = [
     "rentPerMonth": "197.64",
     "rentPerYear": "2534.66",
     "securityDeposit": "427.96",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3932,7 +3932,7 @@ const product = [
     "rentPerMonth": "222.54",
     "rentPerYear": "1880.58",
     "securityDeposit": "346.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3945,7 +3945,7 @@ const product = [
     "rentPerMonth": "95.01",
     "rentPerYear": "1591.44",
     "securityDeposit": "82.49",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3958,7 +3958,7 @@ const product = [
     "rentPerMonth": "232.90",
     "rentPerYear": "2058.69",
     "securityDeposit": "226.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3971,7 +3971,7 @@ const product = [
     "rentPerMonth": "297.25",
     "rentPerYear": "3421.27",
     "securityDeposit": "187.74",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3984,7 +3984,7 @@ const product = [
     "rentPerMonth": "266.12",
     "rentPerYear": "3277.64",
     "securityDeposit": "1.87",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -3997,7 +3997,7 @@ const product = [
     "rentPerMonth": "9.07",
     "rentPerYear": "1233.58",
     "securityDeposit": "407.29",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -4010,7 +4010,7 @@ const product = [
     "rentPerMonth": "155.08",
     "rentPerYear": "3491.76",
     "securityDeposit": "321.47",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -4023,7 +4023,7 @@ const product = [
     "rentPerMonth": "95.28",
     "rentPerYear": "2060.27",
     "securityDeposit": "203.75",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -4036,7 +4036,7 @@ const product = [
     "rentPerMonth": "140.84",
     "rentPerYear": "2118.51",
     "securityDeposit": "265.16",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -4049,7 +4049,7 @@ const product = [
     "rentPerMonth": "156.76",
     "rentPerYear": "2989.03",
     "securityDeposit": "481.49",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Kids Utilities"
   },
   {
@@ -4062,7 +4062,7 @@ const product = [
     "rentPerMonth": "165.27",
     "rentPerYear": "821.94",
     "securityDeposit": "134.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4075,7 +4075,7 @@ const product = [
     "rentPerMonth": "209.86",
     "rentPerYear": "464.78",
     "securityDeposit": "186.13",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4088,7 +4088,7 @@ const product = [
     "rentPerMonth": "97.64",
     "rentPerYear": "3484.64",
     "securityDeposit": "167.29",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4101,7 +4101,7 @@ const product = [
     "rentPerMonth": "240.84",
     "rentPerYear": "2288.39",
     "securityDeposit": "282.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4114,7 +4114,7 @@ const product = [
     "rentPerMonth": "211.37",
     "rentPerYear": "2084.04",
     "securityDeposit": "28.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4127,7 +4127,7 @@ const product = [
     "rentPerMonth": "218.55",
     "rentPerYear": "1526.99",
     "securityDeposit": "204.58",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4140,7 +4140,7 @@ const product = [
     "rentPerMonth": "165.31",
     "rentPerYear": "2597.66",
     "securityDeposit": "459.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4153,7 +4153,7 @@ const product = [
     "rentPerMonth": "95.35",
     "rentPerYear": "236.08",
     "securityDeposit": "299.97",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4166,7 +4166,7 @@ const product = [
     "rentPerMonth": "180.77",
     "rentPerYear": "1411.51",
     "securityDeposit": "215.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4179,7 +4179,7 @@ const product = [
     "rentPerMonth": "113.36",
     "rentPerYear": "1894.95",
     "securityDeposit": "154.73",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4192,7 +4192,7 @@ const product = [
     "rentPerMonth": "64.92",
     "rentPerYear": "3382.08",
     "securityDeposit": "192.44",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4205,7 +4205,7 @@ const product = [
     "rentPerMonth": "88.04",
     "rentPerYear": "2263.82",
     "securityDeposit": "342.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4218,7 +4218,7 @@ const product = [
     "rentPerMonth": "177.73",
     "rentPerYear": "2423.93",
     "securityDeposit": "112.17",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4231,7 +4231,7 @@ const product = [
     "rentPerMonth": "283.38",
     "rentPerYear": "599.54",
     "securityDeposit": "189.19",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4244,7 +4244,7 @@ const product = [
     "rentPerMonth": "99.12",
     "rentPerYear": "1963.88",
     "securityDeposit": "349.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4257,7 +4257,7 @@ const product = [
     "rentPerMonth": "164.49",
     "rentPerYear": "2641.02",
     "securityDeposit": "148.28",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4270,7 +4270,7 @@ const product = [
     "rentPerMonth": "130.63",
     "rentPerYear": "539.51",
     "securityDeposit": "442.54",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4283,7 +4283,7 @@ const product = [
     "rentPerMonth": "73.49",
     "rentPerYear": "2549.10",
     "securityDeposit": "240.05",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4296,7 +4296,7 @@ const product = [
     "rentPerMonth": "91.69",
     "rentPerYear": "38.55",
     "securityDeposit": "358.02",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4309,7 +4309,7 @@ const product = [
     "rentPerMonth": "11.26",
     "rentPerYear": "466.79",
     "securityDeposit": "227.13",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Machines & Tools"
   },
   {
@@ -4322,7 +4322,7 @@ const product = [
     "rentPerMonth": "280.40",
     "rentPerYear": "2298.95",
     "securityDeposit": "173.27",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4335,7 +4335,7 @@ const product = [
     "rentPerMonth": "20.10",
     "rentPerYear": "1265.01",
     "securityDeposit": "111.92",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4348,7 +4348,7 @@ const product = [
     "rentPerMonth": "252.76",
     "rentPerYear": "20.19",
     "securityDeposit": "74.94",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4361,7 +4361,7 @@ const product = [
     "rentPerMonth": "191.97",
     "rentPerYear": "1411.95",
     "securityDeposit": "51.34",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4374,7 +4374,7 @@ const product = [
     "rentPerMonth": "112.78",
     "rentPerYear": "1972.55",
     "securityDeposit": "57.16",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4387,7 +4387,7 @@ const product = [
     "rentPerMonth": "293.56",
     "rentPerYear": "1568.55",
     "securityDeposit": "183.70",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4400,7 +4400,7 @@ const product = [
     "rentPerMonth": "297.60",
     "rentPerYear": "153.14",
     "securityDeposit": "233.84",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4413,7 +4413,7 @@ const product = [
     "rentPerMonth": "83.56",
     "rentPerYear": "3222.67",
     "securityDeposit": "195.26",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4426,7 +4426,7 @@ const product = [
     "rentPerMonth": "75.16",
     "rentPerYear": "1154.45",
     "securityDeposit": "263.17",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4439,7 +4439,7 @@ const product = [
     "rentPerMonth": "210.52",
     "rentPerYear": "1012.19",
     "securityDeposit": "51.66",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4452,7 +4452,7 @@ const product = [
     "rentPerMonth": "161.11",
     "rentPerYear": "430.15",
     "securityDeposit": "480.71",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4465,7 +4465,7 @@ const product = [
     "rentPerMonth": "231.02",
     "rentPerYear": "1511.13",
     "securityDeposit": "391.04",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4478,7 +4478,7 @@ const product = [
     "rentPerMonth": "77.25",
     "rentPerYear": "14.63",
     "securityDeposit": "90.32",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4491,7 +4491,7 @@ const product = [
     "rentPerMonth": "181.65",
     "rentPerYear": "1598.94",
     "securityDeposit": "74.43",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4504,7 +4504,7 @@ const product = [
     "rentPerMonth": "196.13",
     "rentPerYear": "1624.40",
     "securityDeposit": "247.77",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4517,7 +4517,7 @@ const product = [
     "rentPerMonth": "39.90",
     "rentPerYear": "356.06",
     "securityDeposit": "377.57",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4530,7 +4530,7 @@ const product = [
     "rentPerMonth": "43.41",
     "rentPerYear": "1521.13",
     "securityDeposit": "253.33",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4543,7 +4543,7 @@ const product = [
     "rentPerMonth": "181.51",
     "rentPerYear": "706.60",
     "securityDeposit": "349.32",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4556,7 +4556,7 @@ const product = [
     "rentPerMonth": "183.87",
     "rentPerYear": "2612.20",
     "securityDeposit": "44.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4569,7 +4569,7 @@ const product = [
     "rentPerMonth": "65.26",
     "rentPerYear": "2230.54",
     "securityDeposit": "391.91",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Medical Equipment & Services"
   },
   {
@@ -4582,7 +4582,7 @@ const product = [
     "rentPerMonth": "44.13",
     "rentPerYear": "1937.36",
     "securityDeposit": "148.94",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4595,7 +4595,7 @@ const product = [
     "rentPerMonth": "237.26",
     "rentPerYear": "3556.73",
     "securityDeposit": "247.64",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4608,7 +4608,7 @@ const product = [
     "rentPerMonth": "136.95",
     "rentPerYear": "1287.33",
     "securityDeposit": "33.66",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4621,7 +4621,7 @@ const product = [
     "rentPerMonth": "208.50",
     "rentPerYear": "1906.13",
     "securityDeposit": "272.98",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4634,7 +4634,7 @@ const product = [
     "rentPerMonth": "59.55",
     "rentPerYear": "219.96",
     "securityDeposit": "147.83",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4647,7 +4647,7 @@ const product = [
     "rentPerMonth": "142.59",
     "rentPerYear": "3142.97",
     "securityDeposit": "52.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4660,7 +4660,7 @@ const product = [
     "rentPerMonth": "87.60",
     "rentPerYear": "2691.24",
     "securityDeposit": "245.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4673,7 +4673,7 @@ const product = [
     "rentPerMonth": "149.93",
     "rentPerYear": "687.89",
     "securityDeposit": "259.30",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4686,7 +4686,7 @@ const product = [
     "rentPerMonth": "10.83",
     "rentPerYear": "3321.62",
     "securityDeposit": "365.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4699,7 +4699,7 @@ const product = [
     "rentPerMonth": "245.50",
     "rentPerYear": "2177.63",
     "securityDeposit": "28.43",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4712,7 +4712,7 @@ const product = [
     "rentPerMonth": "152.47",
     "rentPerYear": "1465.77",
     "securityDeposit": "153.50",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4725,7 +4725,7 @@ const product = [
     "rentPerMonth": "75.88",
     "rentPerYear": "1793.16",
     "securityDeposit": "409.49",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4738,7 +4738,7 @@ const product = [
     "rentPerMonth": "117.30",
     "rentPerYear": "1353.13",
     "securityDeposit": "234.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4751,7 +4751,7 @@ const product = [
     "rentPerMonth": "26.08",
     "rentPerYear": "2511.00",
     "securityDeposit": "170.16",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4764,7 +4764,7 @@ const product = [
     "rentPerMonth": "71.49",
     "rentPerYear": "2874.09",
     "securityDeposit": "339.32",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4777,7 +4777,7 @@ const product = [
     "rentPerMonth": "20.64",
     "rentPerYear": "232.03",
     "securityDeposit": "58.89",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4790,7 +4790,7 @@ const product = [
     "rentPerMonth": "265.56",
     "rentPerYear": "3211.39",
     "securityDeposit": "70.95",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4803,7 +4803,7 @@ const product = [
     "rentPerMonth": "180.45",
     "rentPerYear": "138.89",
     "securityDeposit": "65.86",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4816,7 +4816,7 @@ const product = [
     "rentPerMonth": "179.88",
     "rentPerYear": "1109.88",
     "securityDeposit": "74.72",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4829,7 +4829,7 @@ const product = [
     "rentPerMonth": "147.79",
     "rentPerYear": "2591.22",
     "securityDeposit": "496.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Mobile Washrooms"
   },
   {
@@ -4842,7 +4842,7 @@ const product = [
     "rentPerMonth": "94.17",
     "rentPerYear": "3097.39",
     "securityDeposit": "47.63",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4855,7 +4855,7 @@ const product = [
     "rentPerMonth": "12.85",
     "rentPerYear": "1612.70",
     "securityDeposit": "177.00",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4868,7 +4868,7 @@ const product = [
     "rentPerMonth": "18.99",
     "rentPerYear": "1684.13",
     "securityDeposit": "382.24",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4881,7 +4881,7 @@ const product = [
     "rentPerMonth": "245.81",
     "rentPerYear": "2132.30",
     "securityDeposit": "128.24",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4894,7 +4894,7 @@ const product = [
     "rentPerMonth": "17.03",
     "rentPerYear": "1457.89",
     "securityDeposit": "25.16",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4907,7 +4907,7 @@ const product = [
     "rentPerMonth": "124.35",
     "rentPerYear": "2314.30",
     "securityDeposit": "29.19",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4920,7 +4920,7 @@ const product = [
     "rentPerMonth": "79.24",
     "rentPerYear": "2777.88",
     "securityDeposit": "190.79",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4933,7 +4933,7 @@ const product = [
     "rentPerMonth": "11.08",
     "rentPerYear": "2309.94",
     "securityDeposit": "52.95",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4946,7 +4946,7 @@ const product = [
     "rentPerMonth": "34.49",
     "rentPerYear": "3038.25",
     "securityDeposit": "305.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4959,7 +4959,7 @@ const product = [
     "rentPerMonth": "231.04",
     "rentPerYear": "2331.65",
     "securityDeposit": "325.01",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4972,7 +4972,7 @@ const product = [
     "rentPerMonth": "261.74",
     "rentPerYear": "601.87",
     "securityDeposit": "2.86",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4985,7 +4985,7 @@ const product = [
     "rentPerMonth": "273.25",
     "rentPerYear": "2062.06",
     "securityDeposit": "455.07",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -4998,7 +4998,7 @@ const product = [
     "rentPerMonth": "208.63",
     "rentPerYear": "1752.45",
     "securityDeposit": "171.34",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5011,7 +5011,7 @@ const product = [
     "rentPerMonth": "38.12",
     "rentPerYear": "2853.59",
     "securityDeposit": "274.12",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5024,7 +5024,7 @@ const product = [
     "rentPerMonth": "76.57",
     "rentPerYear": "2546.66",
     "securityDeposit": "89.92",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5037,7 +5037,7 @@ const product = [
     "rentPerMonth": "250.45",
     "rentPerYear": "3290.32",
     "securityDeposit": "285.39",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5050,7 +5050,7 @@ const product = [
     "rentPerMonth": "23.37",
     "rentPerYear": "1916.17",
     "securityDeposit": "430.76",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5063,7 +5063,7 @@ const product = [
     "rentPerMonth": "47.19",
     "rentPerYear": "1025.89",
     "securityDeposit": "40.96",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5076,7 +5076,7 @@ const product = [
     "rentPerMonth": "238.03",
     "rentPerYear": "275.50",
     "securityDeposit": "133.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5089,7 +5089,7 @@ const product = [
     "rentPerMonth": "230.10",
     "rentPerYear": "2754.66",
     "securityDeposit": "26.13",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Musical Instruments"
   },
   {
@@ -5102,7 +5102,7 @@ const product = [
     "rentPerMonth": "149.59",
     "rentPerYear": "3326.85",
     "securityDeposit": "441.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5115,7 +5115,7 @@ const product = [
     "rentPerMonth": "292.53",
     "rentPerYear": "1197.97",
     "securityDeposit": "198.82",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5128,7 +5128,7 @@ const product = [
     "rentPerMonth": "189.58",
     "rentPerYear": "1670.21",
     "securityDeposit": "370.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5141,7 +5141,7 @@ const product = [
     "rentPerMonth": "76.69",
     "rentPerYear": "526.00",
     "securityDeposit": "317.12",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5154,7 +5154,7 @@ const product = [
     "rentPerMonth": "177.47",
     "rentPerYear": "970.43",
     "securityDeposit": "377.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5167,7 +5167,7 @@ const product = [
     "rentPerMonth": "265.69",
     "rentPerYear": "3373.48",
     "securityDeposit": "405.47",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5180,7 +5180,7 @@ const product = [
     "rentPerMonth": "242.35",
     "rentPerYear": "1438.15",
     "securityDeposit": "419.54",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5193,7 +5193,7 @@ const product = [
     "rentPerMonth": "16.57",
     "rentPerYear": "687.59",
     "securityDeposit": "35.18",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5206,7 +5206,7 @@ const product = [
     "rentPerMonth": "88.51",
     "rentPerYear": "636.54",
     "securityDeposit": "417.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5219,7 +5219,7 @@ const product = [
     "rentPerMonth": "83.27",
     "rentPerYear": "1804.21",
     "securityDeposit": "248.08",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5232,7 +5232,7 @@ const product = [
     "rentPerMonth": "174.90",
     "rentPerYear": "1957.99",
     "securityDeposit": "34.85",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5245,7 +5245,7 @@ const product = [
     "rentPerMonth": "242.03",
     "rentPerYear": "2877.21",
     "securityDeposit": "93.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5258,7 +5258,7 @@ const product = [
     "rentPerMonth": "146.72",
     "rentPerYear": "3447.58",
     "securityDeposit": "12.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5271,7 +5271,7 @@ const product = [
     "rentPerMonth": "269.54",
     "rentPerYear": "645.09",
     "securityDeposit": "100.82",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5284,7 +5284,7 @@ const product = [
     "rentPerMonth": "249.91",
     "rentPerYear": "1589.32",
     "securityDeposit": "253.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5297,7 +5297,7 @@ const product = [
     "rentPerMonth": "165.99",
     "rentPerYear": "920.08",
     "securityDeposit": "450.63",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5310,7 +5310,7 @@ const product = [
     "rentPerMonth": "259.63",
     "rentPerYear": "1490.77",
     "securityDeposit": "209.91",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5323,7 +5323,7 @@ const product = [
     "rentPerMonth": "203.44",
     "rentPerYear": "1347.60",
     "securityDeposit": "59.79",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5336,7 +5336,7 @@ const product = [
     "rentPerMonth": "31.74",
     "rentPerYear": "3339.19",
     "securityDeposit": "62.25",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5349,7 +5349,7 @@ const product = [
     "rentPerMonth": "283.58",
     "rentPerYear": "1776.54",
     "securityDeposit": "62.15",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Others"
   },
   {
@@ -5362,7 +5362,7 @@ const product = [
     "rentPerMonth": "239.57",
     "rentPerYear": "2971.97",
     "securityDeposit": "329.03",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5375,7 +5375,7 @@ const product = [
     "rentPerMonth": "199.95",
     "rentPerYear": "2211.76",
     "securityDeposit": "31.89",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5388,7 +5388,7 @@ const product = [
     "rentPerMonth": "232.53",
     "rentPerYear": "2453.28",
     "securityDeposit": "205.83",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5401,7 +5401,7 @@ const product = [
     "rentPerMonth": "140.49",
     "rentPerYear": "685.08",
     "securityDeposit": "6.35",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5414,7 +5414,7 @@ const product = [
     "rentPerMonth": "275.27",
     "rentPerYear": "3184.06",
     "securityDeposit": "237.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5427,7 +5427,7 @@ const product = [
     "rentPerMonth": "292.16",
     "rentPerYear": "2179.02",
     "securityDeposit": "116.74",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5440,7 +5440,7 @@ const product = [
     "rentPerMonth": "155.50",
     "rentPerYear": "1355.11",
     "securityDeposit": "279.37",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5453,7 +5453,7 @@ const product = [
     "rentPerMonth": "59.28",
     "rentPerYear": "460.43",
     "securityDeposit": "48.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5466,7 +5466,7 @@ const product = [
     "rentPerMonth": "52.40",
     "rentPerYear": "1042.01",
     "securityDeposit": "298.64",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5479,7 +5479,7 @@ const product = [
     "rentPerMonth": "256.77",
     "rentPerYear": "3454.93",
     "securityDeposit": "368.19",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5492,7 +5492,7 @@ const product = [
     "rentPerMonth": "33.88",
     "rentPerYear": "177.46",
     "securityDeposit": "116.94",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5505,7 +5505,7 @@ const product = [
     "rentPerMonth": "251.58",
     "rentPerYear": "560.80",
     "securityDeposit": "352.20",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5518,7 +5518,7 @@ const product = [
     "rentPerMonth": "240.48",
     "rentPerYear": "1526.55",
     "securityDeposit": "0.60",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5531,7 +5531,7 @@ const product = [
     "rentPerMonth": "50.20",
     "rentPerYear": "1459.17",
     "securityDeposit": "397.24",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5544,7 +5544,7 @@ const product = [
     "rentPerMonth": "175.49",
     "rentPerYear": "281.10",
     "securityDeposit": "229.05",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5557,7 +5557,7 @@ const product = [
     "rentPerMonth": "265.87",
     "rentPerYear": "1524.12",
     "securityDeposit": "295.24",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5570,7 +5570,7 @@ const product = [
     "rentPerMonth": "225.00",
     "rentPerYear": "740.07",
     "securityDeposit": "446.00",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5583,7 +5583,7 @@ const product = [
     "rentPerMonth": "238.21",
     "rentPerYear": "1388.96",
     "securityDeposit": "195.71",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5596,7 +5596,7 @@ const product = [
     "rentPerMonth": "295.60",
     "rentPerYear": "499.17",
     "securityDeposit": "21.36",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5609,7 +5609,7 @@ const product = [
     "rentPerMonth": "81.58",
     "rentPerYear": "3341.77",
     "securityDeposit": "490.42",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Pets Care Services"
   },
   {
@@ -5622,7 +5622,7 @@ const product = [
     "rentPerMonth": "122.41",
     "rentPerYear": "1869.47",
     "securityDeposit": "482.10",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5635,7 +5635,7 @@ const product = [
     "rentPerMonth": "146.91",
     "rentPerYear": "2072.00",
     "securityDeposit": "43.76",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5648,7 +5648,7 @@ const product = [
     "rentPerMonth": "128.22",
     "rentPerYear": "157.89",
     "securityDeposit": "349.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5661,7 +5661,7 @@ const product = [
     "rentPerMonth": "245.14",
     "rentPerYear": "323.06",
     "securityDeposit": "9.05",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5674,7 +5674,7 @@ const product = [
     "rentPerMonth": "224.84",
     "rentPerYear": "1605.72",
     "securityDeposit": "448.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5687,7 +5687,7 @@ const product = [
     "rentPerMonth": "199.85",
     "rentPerYear": "1869.85",
     "securityDeposit": "137.96",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5700,7 +5700,7 @@ const product = [
     "rentPerMonth": "83.92",
     "rentPerYear": "2203.47",
     "securityDeposit": "353.77",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5713,7 +5713,7 @@ const product = [
     "rentPerMonth": "135.24",
     "rentPerYear": "3585.97",
     "securityDeposit": "234.15",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5726,7 +5726,7 @@ const product = [
     "rentPerMonth": "199.18",
     "rentPerYear": "371.08",
     "securityDeposit": "250.20",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5739,7 +5739,7 @@ const product = [
     "rentPerMonth": "183.32",
     "rentPerYear": "824.14",
     "securityDeposit": "26.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5752,7 +5752,7 @@ const product = [
     "rentPerMonth": "287.86",
     "rentPerYear": "523.30",
     "securityDeposit": "152.95",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5765,7 +5765,7 @@ const product = [
     "rentPerMonth": "177.44",
     "rentPerYear": "439.33",
     "securityDeposit": "323.81",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5778,7 +5778,7 @@ const product = [
     "rentPerMonth": "96.76",
     "rentPerYear": "1276.59",
     "securityDeposit": "191.62",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5791,7 +5791,7 @@ const product = [
     "rentPerMonth": "32.97",
     "rentPerYear": "1877.12",
     "securityDeposit": "455.41",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5804,7 +5804,7 @@ const product = [
     "rentPerMonth": "287.49",
     "rentPerYear": "1538.77",
     "securityDeposit": "460.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5817,7 +5817,7 @@ const product = [
     "rentPerMonth": "102.14",
     "rentPerYear": "733.98",
     "securityDeposit": "133.23",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5830,7 +5830,7 @@ const product = [
     "rentPerMonth": "293.58",
     "rentPerYear": "1555.06",
     "securityDeposit": "402.51",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5843,7 +5843,7 @@ const product = [
     "rentPerMonth": "218.79",
     "rentPerYear": "1331.18",
     "securityDeposit": "275.38",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5856,7 +5856,7 @@ const product = [
     "rentPerMonth": "223.83",
     "rentPerYear": "2434.64",
     "securityDeposit": "38.98",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5869,7 +5869,7 @@ const product = [
     "rentPerMonth": "71.74",
     "rentPerYear": "2644.02",
     "securityDeposit": "358.00",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Property"
   },
   {
@@ -5882,7 +5882,7 @@ const product = [
     "rentPerMonth": "167.20",
     "rentPerYear": "70.52",
     "securityDeposit": "435.87",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5895,7 +5895,7 @@ const product = [
     "rentPerMonth": "200.75",
     "rentPerYear": "781.47",
     "securityDeposit": "37.97",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5908,7 +5908,7 @@ const product = [
     "rentPerMonth": "65.83",
     "rentPerYear": "1857.26",
     "securityDeposit": "294.64",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5921,7 +5921,7 @@ const product = [
     "rentPerMonth": "275.52",
     "rentPerYear": "2310.41",
     "securityDeposit": "89.24",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5934,7 +5934,7 @@ const product = [
     "rentPerMonth": "94.05",
     "rentPerYear": "1411.21",
     "securityDeposit": "435.43",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5947,7 +5947,7 @@ const product = [
     "rentPerMonth": "26.06",
     "rentPerYear": "1025.23",
     "securityDeposit": "30.98",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5960,7 +5960,7 @@ const product = [
     "rentPerMonth": "25.72",
     "rentPerYear": "2964.42",
     "securityDeposit": "112.47",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5973,7 +5973,7 @@ const product = [
     "rentPerMonth": "174.29",
     "rentPerYear": "2559.76",
     "securityDeposit": "39.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5986,7 +5986,7 @@ const product = [
     "rentPerMonth": "187.05",
     "rentPerYear": "2959.67",
     "securityDeposit": "95.39",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -5999,7 +5999,7 @@ const product = [
     "rentPerMonth": "274.12",
     "rentPerYear": "868.16",
     "securityDeposit": "352.62",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6012,7 +6012,7 @@ const product = [
     "rentPerMonth": "208.87",
     "rentPerYear": "940.74",
     "securityDeposit": "376.78",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6025,7 +6025,7 @@ const product = [
     "rentPerMonth": "205.31",
     "rentPerYear": "2154.19",
     "securityDeposit": "88.57",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6038,7 +6038,7 @@ const product = [
     "rentPerMonth": "237.43",
     "rentPerYear": "207.22",
     "securityDeposit": "219.76",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6051,7 +6051,7 @@ const product = [
     "rentPerMonth": "62.04",
     "rentPerYear": "119.09",
     "securityDeposit": "115.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6064,7 +6064,7 @@ const product = [
     "rentPerMonth": "28.88",
     "rentPerYear": "2479.74",
     "securityDeposit": "174.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6077,7 +6077,7 @@ const product = [
     "rentPerMonth": "243.01",
     "rentPerYear": "2621.24",
     "securityDeposit": "86.83",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6090,7 +6090,7 @@ const product = [
     "rentPerMonth": "281.43",
     "rentPerYear": "427.78",
     "securityDeposit": "430.51",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6103,7 +6103,7 @@ const product = [
     "rentPerMonth": "181.55",
     "rentPerYear": "2851.90",
     "securityDeposit": "195.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6116,7 +6116,7 @@ const product = [
     "rentPerMonth": "6.54",
     "rentPerYear": "42.97",
     "securityDeposit": "204.36",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6129,7 +6129,7 @@ const product = [
     "rentPerMonth": "176.36",
     "rentPerYear": "1939.13",
     "securityDeposit": "299.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Security Equipment"
   },
   {
@@ -6142,7 +6142,7 @@ const product = [
     "rentPerMonth": "120.41",
     "rentPerYear": "198.95",
     "securityDeposit": "485.60",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6155,7 +6155,7 @@ const product = [
     "rentPerMonth": "44.32",
     "rentPerYear": "1126.41",
     "securityDeposit": "409.33",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6168,7 +6168,7 @@ const product = [
     "rentPerMonth": "261.69",
     "rentPerYear": "1190.42",
     "securityDeposit": "370.33",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6181,7 +6181,7 @@ const product = [
     "rentPerMonth": "11.37",
     "rentPerYear": "3339.93",
     "securityDeposit": "439.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6194,7 +6194,7 @@ const product = [
     "rentPerMonth": "158.87",
     "rentPerYear": "3246.39",
     "securityDeposit": "88.14",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6207,7 +6207,7 @@ const product = [
     "rentPerMonth": "26.57",
     "rentPerYear": "206.97",
     "securityDeposit": "240.25",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6220,7 +6220,7 @@ const product = [
     "rentPerMonth": "98.93",
     "rentPerYear": "2235.85",
     "securityDeposit": "326.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6233,7 +6233,7 @@ const product = [
     "rentPerMonth": "204.50",
     "rentPerYear": "2269.69",
     "securityDeposit": "333.07",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6246,7 +6246,7 @@ const product = [
     "rentPerMonth": "173.38",
     "rentPerYear": "2324.84",
     "securityDeposit": "227.70",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6259,7 +6259,7 @@ const product = [
     "rentPerMonth": "217.87",
     "rentPerYear": "3535.84",
     "securityDeposit": "351.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6272,7 +6272,7 @@ const product = [
     "rentPerMonth": "85.54",
     "rentPerYear": "3430.05",
     "securityDeposit": "90.12",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6285,7 +6285,7 @@ const product = [
     "rentPerMonth": "225.78",
     "rentPerYear": "1199.75",
     "securityDeposit": "131.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6298,7 +6298,7 @@ const product = [
     "rentPerMonth": "263.93",
     "rentPerYear": "283.86",
     "securityDeposit": "176.45",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6311,7 +6311,7 @@ const product = [
     "rentPerMonth": "27.07",
     "rentPerYear": "119.83",
     "securityDeposit": "148.36",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6324,7 +6324,7 @@ const product = [
     "rentPerMonth": "59.02",
     "rentPerYear": "1121.10",
     "securityDeposit": "253.12",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6337,7 +6337,7 @@ const product = [
     "rentPerMonth": "225.31",
     "rentPerYear": "482.40",
     "securityDeposit": "122.28",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6350,7 +6350,7 @@ const product = [
     "rentPerMonth": "228.57",
     "rentPerYear": "1663.98",
     "securityDeposit": "165.22",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6363,7 +6363,7 @@ const product = [
     "rentPerMonth": "77.00",
     "rentPerYear": "3277.13",
     "securityDeposit": "360.15",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6376,7 +6376,7 @@ const product = [
     "rentPerMonth": "180.06",
     "rentPerYear": "3254.34",
     "securityDeposit": "481.91",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6389,7 +6389,7 @@ const product = [
     "rentPerMonth": "191.79",
     "rentPerYear": "3476.57",
     "securityDeposit": "406.46",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Services"
   },
   {
@@ -6402,7 +6402,7 @@ const product = [
     "rentPerMonth": "111.34",
     "rentPerYear": "531.75",
     "securityDeposit": "191.38",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6415,7 +6415,7 @@ const product = [
     "rentPerMonth": "184.59",
     "rentPerYear": "2062.17",
     "securityDeposit": "346.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6428,7 +6428,7 @@ const product = [
     "rentPerMonth": "109.45",
     "rentPerYear": "2816.41",
     "securityDeposit": "347.56",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6441,7 +6441,7 @@ const product = [
     "rentPerMonth": "12.96",
     "rentPerYear": "366.19",
     "securityDeposit": "332.68",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6454,7 +6454,7 @@ const product = [
     "rentPerMonth": "193.96",
     "rentPerYear": "2939.35",
     "securityDeposit": "134.93",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6467,7 +6467,7 @@ const product = [
     "rentPerMonth": "50.83",
     "rentPerYear": "2596.21",
     "securityDeposit": "235.57",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6480,7 +6480,7 @@ const product = [
     "rentPerMonth": "174.65",
     "rentPerYear": "3033.66",
     "securityDeposit": "440.05",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6493,7 +6493,7 @@ const product = [
     "rentPerMonth": "15.35",
     "rentPerYear": "1456.62",
     "securityDeposit": "21.69",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6506,7 +6506,7 @@ const product = [
     "rentPerMonth": "166.73",
     "rentPerYear": "2295.75",
     "securityDeposit": "258.99",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6519,7 +6519,7 @@ const product = [
     "rentPerMonth": "55.04",
     "rentPerYear": "615.06",
     "securityDeposit": "383.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6532,7 +6532,7 @@ const product = [
     "rentPerMonth": "260.67",
     "rentPerYear": "1182.16",
     "securityDeposit": "160.55",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6545,7 +6545,7 @@ const product = [
     "rentPerMonth": "66.10",
     "rentPerYear": "713.15",
     "securityDeposit": "11.57",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6558,7 +6558,7 @@ const product = [
     "rentPerMonth": "174.09",
     "rentPerYear": "2425.01",
     "securityDeposit": "67.58",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6571,7 +6571,7 @@ const product = [
     "rentPerMonth": "112.86",
     "rentPerYear": "1261.12",
     "securityDeposit": "479.33",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6584,7 +6584,7 @@ const product = [
     "rentPerMonth": "162.28",
     "rentPerYear": "3478.31",
     "securityDeposit": "386.44",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6597,7 +6597,7 @@ const product = [
     "rentPerMonth": "16.31",
     "rentPerYear": "2466.22",
     "securityDeposit": "197.32",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6610,7 +6610,7 @@ const product = [
     "rentPerMonth": "50.13",
     "rentPerYear": "3064.15",
     "securityDeposit": "219.86",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6623,7 +6623,7 @@ const product = [
     "rentPerMonth": "56.03",
     "rentPerYear": "550.17",
     "securityDeposit": "152.85",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6636,7 +6636,7 @@ const product = [
     "rentPerMonth": "143.44",
     "rentPerYear": "2415.51",
     "securityDeposit": "81.48",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6649,7 +6649,7 @@ const product = [
     "rentPerMonth": "281.47",
     "rentPerYear": "3452.22",
     "securityDeposit": "147.32",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Vending Machine"
   },
   {
@@ -6662,7 +6662,7 @@ const product = [
     "rentPerMonth": "15.71",
     "rentPerYear": "1696.32",
     "securityDeposit": "393.52",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6675,7 +6675,7 @@ const product = [
     "rentPerMonth": "113.63",
     "rentPerYear": "2998.68",
     "securityDeposit": "167.71",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6688,7 +6688,7 @@ const product = [
     "rentPerMonth": "217.52",
     "rentPerYear": "1728.83",
     "securityDeposit": "103.86",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6701,7 +6701,7 @@ const product = [
     "rentPerMonth": "86.84",
     "rentPerYear": "3333.60",
     "securityDeposit": "290.39",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6714,7 +6714,7 @@ const product = [
     "rentPerMonth": "216.25",
     "rentPerYear": "103.86",
     "securityDeposit": "32.25",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6727,7 +6727,7 @@ const product = [
     "rentPerMonth": "164.71",
     "rentPerYear": "3264.96",
     "securityDeposit": "303.91",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6740,7 +6740,7 @@ const product = [
     "rentPerMonth": "283.97",
     "rentPerYear": "2985.60",
     "securityDeposit": "322.04",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6753,7 +6753,7 @@ const product = [
     "rentPerMonth": "143.02",
     "rentPerYear": "1381.27",
     "securityDeposit": "355.39",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6766,7 +6766,7 @@ const product = [
     "rentPerMonth": "79.72",
     "rentPerYear": "1388.09",
     "securityDeposit": "469.11",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6779,7 +6779,7 @@ const product = [
     "rentPerMonth": "85.44",
     "rentPerYear": "1191.04",
     "securityDeposit": "58.21",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6792,7 +6792,7 @@ const product = [
     "rentPerMonth": "244.57",
     "rentPerYear": "1242.60",
     "securityDeposit": "464.20",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6805,7 +6805,7 @@ const product = [
     "rentPerMonth": "103.02",
     "rentPerYear": "732.03",
     "securityDeposit": "283.43",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6818,7 +6818,7 @@ const product = [
     "rentPerMonth": "108.61",
     "rentPerYear": "80.11",
     "securityDeposit": "352.72",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6831,7 +6831,7 @@ const product = [
     "rentPerMonth": "80.09",
     "rentPerYear": "1372.85",
     "securityDeposit": "261.58",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6844,7 +6844,7 @@ const product = [
     "rentPerMonth": "58.51",
     "rentPerYear": "759.37",
     "securityDeposit": "275.31",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6857,7 +6857,7 @@ const product = [
     "rentPerMonth": "135.33",
     "rentPerYear": "3117.92",
     "securityDeposit": "178.80",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6870,7 +6870,7 @@ const product = [
     "rentPerMonth": "148.22",
     "rentPerYear": "1788.22",
     "securityDeposit": "401.93",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6883,7 +6883,7 @@ const product = [
     "rentPerMonth": "167.56",
     "rentPerYear": "253.69",
     "securityDeposit": "327.88",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6896,7 +6896,7 @@ const product = [
     "rentPerMonth": "16.12",
     "rentPerYear": "49.19",
     "securityDeposit": "4.40",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   },
   {
@@ -6909,7 +6909,7 @@ const product = [
     "rentPerMonth": "164.00",
     "rentPerYear": "2284.01",
     "securityDeposit": "493.53",
-    "availabilityPlace": "Los Angeles, CA",
+    "availabilityPlace": "Bengaluru, India",
     "categories": "Wedding Couture"
   }
 
