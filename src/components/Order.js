@@ -32,8 +32,8 @@ function Order() {
         orders.map((order, index) => (
           <div key={index} className='mb-4 bg-white p-4 rounded shadow'>
             <h3 className='text-lg font-medium mb-2'>Order ID: {order.orderId}</h3>
-            <p><strong className='text-green-700'>Order Date: </strong>{moment(order.date, 'DD/MM/YYYY, h:mm:ss a').format('MM/DD/YYYY')}</p>
-            <p><strong className='text-green-700'>Order Time: </strong>{moment(order.date, 'DD/MM/YYYY, h:mm:ss a').format('h:mm:ss a')}</p>
+            <p><strong className='text-green-700'>Order Date: </strong>{moment(order.date, 'MM/DD/YYYY, h:mm:ss a').format('MM/DD/YYYY')}</p>
+            <p><strong className='text-green-700'>Order Time: </strong>{moment(order.date, 'MM/DD/YYYY, h:mm:ss a').format('h:mm:ss a')}</p>
 
             <p><strong className='text-green-700'>Total Amount Paid:</strong> ₹{order.orderPrice}</p>
             <ul>
