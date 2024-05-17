@@ -90,7 +90,7 @@ function Cart() {
       currency: currency,
       name: "Xingoda",
       description: "Test Transaction",
-      image: {logo},
+      image: "https://xingoda.com/static/media/Xingoda.a29b5822f72e8f8ee213f2b3c4c2afba.svg",
       order_id: order_id,
       handler: async function (response) {
         const data = {

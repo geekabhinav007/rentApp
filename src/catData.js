@@ -24,11 +24,12 @@ import VendingMachine from './assets/VendingMachine-transformed.jpeg';
 import Services from './assets/Services-transformed.jpeg';
 import WeddingCouture from './assets/WeddingCouture-transformed.jpeg';
 import MachinesTools from './assets/MachinesTools-transformed.jpeg';
-
+import Costumes from './assets/costumes.png';
 const categoriesImage = {
     "Automobiles": Automobiles,
     "Biking & Hiking Gears": BikingHikingGears,
     "Books": Books,
+    "Costumes":  Costumes,  
     "Camera & Lenseses": CameraLenseses,
     "Construction Machines & Manpower": ConstructionMachinesManpower,
     "Drones": Drones,

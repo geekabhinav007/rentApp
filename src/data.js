@@ -1,3 +1,4 @@
+import saree from './assets/sarees.jpeg';
 const product = [
   {
     "id": 1,
@@ -25,6 +26,7 @@ const product = [
     "availabilityPlace": "Los Angeles, CA",
     "categories": "Automobiles"
   },
+
   {
     "id": 3,
     "name": "Automobiles Product 3",
@@ -518,6 +520,157 @@ const product = [
     "securityDeposit": "488.44",
     "availabilityPlace": "Los Angeles, CA",
     "categories": "Biking & Hiking Gears"
+  },
+  {
+    "id": 521,
+    "name": "Saree",
+    "image": "https://m.media-amazon.com/images/I/91va0UaysuL._SY550_.jpg",
+    "price": "150",
+    "description": "A traditional garment worn by women, it is an unstitched drape that ranges from 5 to 9 meters.",
+    "rentPerDay": "150",
+    "rentPerMonth": "1399",
+    "rentPerYear": "4999",
+    "securityDeposit": "399",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+
+  },
+  {
+    "id": 522,
+    "name": "Kurta",
+    "image": "https://m.media-amazon.com/images/I/61r6qy9Og0L._SY741_.jpg",
+    "price": "99",
+    "description": "Traditional menswear of India, it comes in various forms and styles.",
+    "rentPerDay": "99",
+    "rentPerMonth": "522",
+    "rentPerYear": "1700",
+    "securityDeposit": "399",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+
+  },
+  {
+    "id": 523,
+    "name": "Sherwani",
+    "image": "https://m.media-amazon.com/images/I/51DaM3noJnL._SX679_.jpg",
+    "price": "748",
+    "description": "A traditional Indian",
+    "rentPerDay": "748",
+    "rentPerMonth": "3999",
+    "rentPerYear": "9999",
+    "securityDeposit": "999",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+  },
+  {
+    "id": 524,
+    "name": "Lehenga",
+    "image": "https://m.media-amazon.com/images/I/91qt3tdMt9L._SX425_.jpg",
+    "price": "1299",
+    "description": "A traditional Indian",
+    "rentPerDay": "99",
+    "rentPerMonth": "1299",
+    "rentPerYear": "9999",
+    "securityDeposit": "700",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+  },
+  {
+    "id": 525,
+    "name": "Dhoti",
+    "image": "https://m.media-amazon.com/images/I/714f8DQSOWL._SX522_.jpg",
+    "price": "399",
+    "description": "A traditional men’s garment, worn as bottom wear in Indian subcontinent",
+    "rentPerDay": "99",
+    "rentPerMonth": "300",
+    "rentPerYear": "500",
+    "securityDeposit": "100",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+  },
+  {
+    "id": 526,
+    "name": "Ghagra Choli",
+    "image": "https://m.media-amazon.com/images/I/51uSFpmsubL._SY550_.jpg",
+    "price": "1000",
+    "description": "Also known as Lehenga Choli, it’s a traditional wear in North India",
+    "rentPerDay": "99",
+    "rentPerMonth": "1299",
+    "rentPerYear": "9999",
+    "securityDeposit": "700",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+
+  },
+  {
+    "id": 527,
+    "name": "Salwar Kameez",
+    "image": "https://m.media-amazon.com/images/I/91n5s+BPQSL._SY550_.jpg",
+    "price": "499",
+    "description": "A traditional outfit originating in the Indian subcontinent, it is generic term used to describe different styles of dress",
+    "rentPerDay": "99",
+    "rentPerMonth": "1299",
+    "rentPerYear": "9999",
+    "securityDeposit": "700",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+
+  },
+  {
+    "id": 528,
+    "name": "Pathani Suit",
+    "image": "https://m.media-amazon.com/images/I/61uEa6ecMbL._SY606_.jpg",
+    "price": "400",
+    "description": "A style of dress worn commonly in North India and Pakistan",
+    "rentPerDay": "99",
+    "rentPerMonth": "1299",
+    "rentPerYear": "9999",
+    "securityDeposit": "700",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+
+  },
+  {
+    "id": 529,
+    "name": "Mekhela Chador",
+    "image": "https://m.media-amazon.com/images/I/81lehdCv8zL._SX466_.jpg",
+    "price": "699",
+    "description": "Traditional Assames attire worn by women",
+    "rentPerDay": "99",
+    "rentPerMonth": "1299",
+    "rentPerYear": "9999",
+    "securityDeposit": "700",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+
+  },
+  {
+    "id": 530,
+    "name": "Bandhgala",
+    "image": "https://m.media-amazon.com/images/I/81n3Y+EOFUL._SX522_.jpg",
+    "price": "799",
+    "description": "Also known as Jodhpuri suit, it is a formal evening suit from India",
+    "rentPerDay": "99",
+    "rentPerMonth": "1299",
+    "rentPerYear": "9999",
+    "securityDeposit": "700",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
+
+  },
+  {
+    "id": 531,
+    "name": "Sharara",
+    "image": "https://m.media-amazon.com/images/I/71joBKNI5WL._SY550_.jpg",
+    "price": "799",
+    "description": "A pair of loose pleated trousers worn by women from the Indian subcontinent",
+
+    "rentPerDay": "99",
+    "rentPerMonth": "1299",
+    "rentPerYear": "9999",
+    "securityDeposit": "700",
+    "availabilityPlace": "Los Angeles, CA",
+    "categories": "Costumes"
   },
   {
     "id": 41,
@@ -6759,5 +6912,7 @@ const product = [
     "availabilityPlace": "Los Angeles, CA",
     "categories": "Wedding Couture"
   }
+
+
 ];
 export default product;
